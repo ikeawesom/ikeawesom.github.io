@@ -1,22 +1,23 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
 * {
     border: 0;
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    /* border: 1px dotted red; */
 }
 
 :root {
     /* Default Colours */
-    /* -------- DARK THEME -------- */
-    --bg-color:#030023;
-    --red:#ff4d4d;
+    /* --background: rgb(255,255,255); */
+    --theme-color:#0a0076;
+    --purple:#9244ff;
+    --red:#ff2e2e;
+    --green: rgb(0, 128, 2);
     --yellow:#fff54d;
     --banner-text:#e8e6ff;
-    --grey:rgb(226, 226, 226);
-    /* ---------------------------- */
+    --grey:rgb(163, 163, 163);
 }
 
 h1, h2, h3, h4 {
@@ -24,13 +25,14 @@ h1, h2, h3, h4 {
 }
 
 h1 {
+    color: var(--banner-text);
     font-size: 3.5em;
-    /* font-weight: bolder; */
 }
 
 p {
+    color: var(--grey);
     letter-spacing: 0.1em;
-    font-weight: 400;
+    line-height: 1.5rem;
 }
 
 i {
