@@ -5,13 +5,15 @@
     left: 0;
     z-index: 10;
     width: 100%;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
+    pointer-events: none;
     background: linear-gradient(to bottom, rgba(13, 0, 76, 1),rgba(13, 0, 76, 0.6), rgba(13, 0, 76, 0));
     animation: fadedown 2s ease-in-out forwards;
     animation-delay: 4s;
 }
 
 .header-container {
+    pointer-events: all;
     align-items: center;
     justify-content: space-between;
     max-width: 80rem;
@@ -28,7 +30,7 @@ header a {
 
 .primary-navigation {
     list-style: none;
-    gap: var(--gap, 2rem);
+    gap: var(--gap, 1rem);
 }
 
 .primary-navigation i {
