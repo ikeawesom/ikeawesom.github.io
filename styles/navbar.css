@@ -24,8 +24,14 @@
     margin: 2rem;
 }
 
+.breadcrumb h4 {
+    font-weight: 100;
+    letter-spacing: 0.8rem;
+}
+
 header a {
     color: var(--banner-text);
+    font-weight: lighter;
 }
 
 .primary-navigation {
