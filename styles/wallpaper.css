@@ -1,10 +1,12 @@
 
 #wallpaper {
-    overflow: visible;
+    /* overflow-x: hidden; */
     z-index: -100;
     position: fixed;
     width: 100%;
-    min-height: 500vh;
+    margin: 0;
+    /* border: 2px dotted green; */
+    min-height: var(--page-wrapper-height);
     background: linear-gradient(to bottom right, var(--theme-color), #010015);
     background-size: 300% 300%;
     -webkit-animation: wallpaper 20s ease-in-out infinite;
