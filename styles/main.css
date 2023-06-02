@@ -19,11 +19,11 @@
     --yellow:#fff54d;
     --banner-text:#e8e6ff;
     --grey:rgb(179, 179, 179);
+    --blue-ball:#4fc3dc;
+    --red-ball:#ff2d75;
 
     --yellow-tint: rgba(251, 255, 0, 0.741);
     --red-tint: rgba(222, 77, 77, 0.741);
-
-    --page-wrapper-height: 700vh;
     
     /* Font sizes */
     --h1-font-size: 3.5em;
@@ -121,7 +121,6 @@ input {
 
 #page-wrapper {
     margin: 0 20vw;
-    height: var(--page-wrapper-height);
 }
 
 .page {
