@@ -67,7 +67,8 @@ header a {
         --gap: 3rem;
 
         position: fixed;
-        height: 100vh;
+        height: 100%;
+        min-height: 100vh;
 
         align-items: end;
         justify-content: center;

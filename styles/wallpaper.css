@@ -1,12 +1,9 @@
-
-#wallpaper {
-    /* overflow-x: hidden; */
-    z-index: -100;
+body {
+    /* z-index: -100;
     position: fixed;
     width: 100%;
     margin: 0;
-    /* border: 2px dotted green; */
-    min-height: var(--page-wrapper-height);
+    min-height: var(--page-wrapper-height); */
     background: linear-gradient(to bottom right, var(--theme-color), #010015);
     background-size: 300% 300%;
     -webkit-animation: wallpaper 20s ease-in-out infinite;
@@ -25,7 +22,8 @@
       }
 }
 
-.circles{
+.circles, .squares {
+    overflow: hidden;
     z-index: -1;
     position: absolute;
     top: 0;
@@ -118,15 +116,6 @@
     height: 80px;
     animation-delay: 0s;
     animation-duration: 31s;
-}
-
-.squares{
-    z-index: -1;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
 }
 
 .squares li{
@@ -226,6 +215,9 @@
     }
 
     20% {
+        opacity: 0;
+    }
+    50% {
         opacity: 0.8;
     }
     100%{
@@ -243,8 +235,10 @@
         opacity: 0;
         border-radius: 30%;
     }
-
     20% {
+        opacity: 0;
+    }
+    80% {
         opacity: 0.8;
     }
     100%{

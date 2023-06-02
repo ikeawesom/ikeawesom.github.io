@@ -121,20 +121,7 @@ input {
 
 #page-wrapper {
     margin: 0 20vw;
-    border: 1px dotted red;
     height: var(--page-wrapper-height);
-}
-
-@media (max-width:800px) {
-    #page-wrapper {
-        margin:0 4rem;
-    }
-}
-
-@media (max-width:380px) {
-    #page-wrapper {
-        margin:0 2rem;
-    }
 }
 
 .page {
@@ -150,69 +137,16 @@ input {
     color: var(--purple);
 }
 
-.about-container {
-    align-items: center;
-    justify-content: space-between;
-    gap: var(--gap, 5rem);
+@media (max-width:800px) {
+    #page-wrapper {
+        margin:0 4rem;
+    }
 }
 
-.about-container .image-container {
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
-
-.about-container .image-container img {
-    aspect-ratio: 1;
-    width: 25vw;
-    box-shadow: 0 0 30px 50px rgba(99, 99, 99, 0.21);
-    transition: 0.3s;
-}
-
-.about-container .image-container img:hover {
-    transform: scale(1.05);
-}
-
-.about-container-text {
-    flex-direction: column;
-    align-items: start;
-    justify-content: space-between;
-    gap: var(--gap, 2rem);
-}
-
-.about-container-text h4{
-    margin-bottom: var(--line-height);
-}
-
-.experience-container {
-    flex-wrap: wrap;
-    align-items: space;
-    width: 100%;
-    justify-content: space-around;
-}
-
-.experience-tab p, .experience-tab h3 {
-    width: 100%;
-    text-align: center;
-}
-
-.experience-tab p {
-    font-size: smaller;
-    line-height: var(--line-height);
-}
-
-.about-container button {
-    width: 100%;
-    border: none;
-    border-radius: 0;
-    background-color: var(--red-tint);
-    font-size: 1rem;
-    color: var(--banner-text);
-    transition: 0.3s;
-}
-
-.about-container button:hover {
-    filter: brightness(1.2);
+@media (max-width:380px) {
+    #page-wrapper {
+        margin:0 2rem;
+    }
 }
 
 
@@ -289,28 +223,5 @@ input {
     }
     .experience-tab p {
         line-height: var(--line-height-sss);
-    }
-}
-
-@media (max-width: 1100px) {
-    .about-container {
-        flex-wrap: wrap;
-        --gap: 2rem;
-    }
-
-    .about-container .image-container img {
-        width: max(25vw, 25vh);
-    }
-
-}
-
-@media (max-width: 500px) {
-    .about-container {
-        --gap:1.5rem;
-    }
-}
-@media (max-width:600px) {
-    .about-container .image-container img {
-        width: 50vw;
     }
 }
