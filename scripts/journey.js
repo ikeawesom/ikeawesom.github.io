@@ -2,9 +2,10 @@
 const journey_tab = document.querySelectorAll(".journey-tab");
 
 journey_tab.forEach((tab) => {
+  try {
     const arrow = tab.querySelector("i");
     const container = tab.querySelector(".sub-text");
-    
+
     arrow.addEventListener('click',function(event) {
         event.preventDefault();
 
@@ -35,4 +36,8 @@ journey_tab.forEach((tab) => {
             })
         }
     })
+  } catch (error) {
+    
+  }
+    
 })

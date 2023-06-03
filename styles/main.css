@@ -66,7 +66,8 @@
     --line-height-sss: 1rem;
 }
 body {
-    min-height: 100vh
+    min-height: 100vh;
+    overflow-x: hidden;
 }
 
 h1, h2, h3, h4 {
@@ -147,6 +148,36 @@ input {
 .subtitle {
     color: var(--purple);
 }
+
+.scroll-hidden {
+    opacity: 0;    
+}
+
+.scroll-hidden.noanim {
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+}
+
+.scroll-hidden.left {
+    transform: translateX(-70%);
+}
+
+.scroll-hidden.right {
+    transform: translateX(70%);
+}
+
+.scroll-hidden.top {
+    transform: translateY(-70%);
+}
+
+.scroll-hidden.bottom {
+    transform: translateY(70%);
+}
+
+.scroll-hidden.show {
+    opacity: 1;
+    transform: translateX(0) translateY(0);
+}
+
 
 @media (max-width:800px) {
     #page-wrapper {

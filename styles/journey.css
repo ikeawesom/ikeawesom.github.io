@@ -2,13 +2,26 @@
     position: relative;
     margin: 3rem 0;
     border: 1.5px solid rgba(255, 255, 255, 0.327);
-    padding: 2rem;
+    padding: var(--pad,2rem);
     height: fit-content;
     border-radius: 0.5rem;
     background: rgba(2, 0, 14, 0.3);
     backdrop-filter: blur(2px);
-    transition: 0.4s;
+    /* transition: filter 0.4s; */
     width: 100%;
+}
+
+.journey-tab.scroll-hidden.show:nth-child(1) {
+    transition: opacity 1s ease-in-out 100ms, transform 1s ease-in-out 100ms, filter 200ms ease-in-out;
+}
+
+
+.journey-tab.scroll-hidden.show:nth-child(2) {
+    transition: opacity 1s ease-in-out 300ms, transform 1s ease-in-out 300ms, filter 200ms ease-in-out;
+}
+
+.journey-tab.scroll-hidden.show:nth-child(3) {
+    transition: opacity 1s ease-in-out 500ms, transform 1s ease-in-out 500ms, filter 200ms ease-in-out;
 }
 
 .journey-container.flex {
@@ -22,6 +35,28 @@
 .journey-tab.small {
     aspect-ratio: 1.7;
     width: 45%;
+}
+
+.journey-tab.small.scroll-hidden.show:nth-child(1) {
+    transition: opacity 1s ease-in-out 100ms, transform 1s ease-in-out 100ms, filter 200ms ease-in-out;
+}
+
+
+.journey-tab.small.scroll-hidden.show:nth-child(2) {
+    transition: opacity 1s ease-in-out 300ms, transform 1s ease-in-out 300ms, filter 200ms ease-in-out;
+}
+
+.journey-tab.small.scroll-hidden.show:nth-child(3) {
+    transition: opacity 1s ease-in-out 500ms, transform 1s ease-in-out 500ms, filter 200ms ease-in-out;
+}
+
+.journey-tab.small.scroll-hidden.show:nth-child(4) {
+    transition: opacity 1s ease-in-out 800ms, transform 1s ease-in-out 800ms, filter 200ms ease-in-out;
+}
+
+
+.journey-tab.small.scroll-hidden.show:nth-child(5) {
+    transition: opacity 1s ease-in-out 1100ms, transform 1s ease-in-out 1100ms, filter 200ms ease-in-out;
 }
 
 .journey-tab.small h4 {
@@ -79,6 +114,10 @@
     animation: rotation forwards 500ms;
 }
 @media (max-width:1050px) {
+    .journey-tab {
+        --pad:1.8rem
+    }
+
     .journey-container.flex {
         justify-content: center;
     }
@@ -90,6 +129,18 @@
 
     .journey-tab.small h3 {
         text-align: left;
+    }
+}
+
+@media (max-width:770px) {
+    .journey-tab {
+        --pad:1.3rem
+    }
+}
+
+@media (max-width:500px) {
+    .journey-tab {
+        --pad:1rem
     }
 }
 
