@@ -1,0 +1,63 @@
+.services-container {
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.services-container .services-tab {
+    width: 15rem;
+    height: 15rem;
+    position: relative;
+    padding: 2rem;
+}
+
+.services-container .services-tab:hover {
+    filter: brightness(1.5);
+}
+
+.services-container .services-tab i {
+    font-size: var(--h1-font-size-ss);
+    color: var(--banner-text);
+}
+
+.icon {
+    cursor: default;
+}
+
+.services-container .services-tab h4 {
+    margin: 0.6rem 0;
+}
+
+.uil-arrow-down-right {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+.services-container .services-tab:nth-child(1),
+.services-container .services-tab:nth-child(2),
+.services-container .services-tab:nth-child(3) {
+    flex: 1;
+    transition: 0.3s ease-in-out;
+}
+
+
+.services-container .services-tab:nth-child(1):hover,
+.services-container .services-tab:nth-child(2):hover,
+.services-container .services-tab:nth-child(3):hover {
+    flex: 1.5;
+}
+
+
+.services-container .services-tab:nth-child(1) {
+    background: var(--yellow-tint);
+}
+
+.services-container .services-tab:nth-child(2) {
+    background: var(--red-tint);
+}
+
+.services-container .services-tab:nth-child(3) {
+    background: var(--green-tint);
+}

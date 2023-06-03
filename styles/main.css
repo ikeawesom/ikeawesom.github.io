@@ -10,8 +10,8 @@
 
 :root {
     /* Default Colours */
-    /* --background: rgb(255,255,255); */
-    --theme-color:#0a0076;
+    --theme-color:rgb(5, 0, 31);
+    --dark-blue:rgb(2, 0, 14);
     --purple:#9244ff;
     --purple-hover:#c79fff;
     --red:#ff2e2e;
@@ -21,9 +21,11 @@
     --grey:rgb(179, 179, 179);
     --blue-ball:#4fc3dc;
     --red-ball:#ff2d75;
-
-    --yellow-tint: rgba(251, 255, 0, 0.741);
+    --yellow-tint: rgba(229, 233, 0, 0.741);
     --red-tint: rgba(222, 77, 77, 0.741);
+    --green-tint: rgba(0, 174, 43, 0.741);
+
+    --wrapper: 15vw;
     
     /* Font sizes */
     --h1-font-size: 3.5em;
@@ -120,16 +122,20 @@ input {
 }
 
 #page-wrapper {
-    margin: 0 20vw;
+    margin: 0 var(--wrapper);
 }
 
 .page {
-    height: 100vh;
-    margin: 10rem 0;
+    margin: 20rem 0;
 }
 
 .title {
-    margin-bottom: 3rem;
+    margin: 4rem 0;
+}
+
+.comment {
+    margin-top: 5rem;
+    color: var(--green);
 }
 
 .subtitle {
@@ -138,13 +144,13 @@ input {
 
 @media (max-width:800px) {
     #page-wrapper {
-        margin:0 4rem;
+        --wrapper: 4rem;
     }
 }
 
 @media (max-width:380px) {
     #page-wrapper {
-        margin:0 2rem;
+        --wrapper: 2rem;
     }
 }
 
@@ -200,7 +206,7 @@ input {
     }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 420px) {
     h1 {
         font-size: var(--h1-font-size-sss);
     }

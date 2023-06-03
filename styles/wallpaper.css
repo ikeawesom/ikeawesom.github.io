@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(to bottom right, var(--theme-color), #010015);
+    background: linear-gradient(to bottom right, var(--theme-color), var(--dark-blue));
     background-size: 300% 300%;
     -webkit-animation: wallpaper 20s ease-in-out infinite;
     animation: wallpaper 20s ease-in-out infinite;
@@ -35,20 +35,12 @@ body {
     margin: 0 40px;
     border-radius: 50%;
     background: radial-gradient(closest-side, var(--blue-ball), transparent) ;
-    /* box-shadow: 0 0 0 10px #4fc3dc44,
-    0 0 70px var(--blue-ball),
-    0 0 100px var(--blue-ball); */
     animation: balls 15s linear infinite;
     animation-duration: calc(125s/var(--i));
-    animation-delay: 3s;
 }
 
 .bubbles span:nth-child(even) {
     background: radial-gradient(closest-side, var(--red-ball), transparent) ;
-    /* background: var(--red-ball);
-    box-shadow: 0 0 0 10px #ff2d7544,
-    0 0 50px var(--red-ball),
-    0 0 100px var(--red-ball); */
 }
 
 

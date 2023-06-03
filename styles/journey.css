@@ -1,0 +1,124 @@
+.journey-tab {
+    position: relative;
+    margin: 3rem 0;
+    border: 1.5px solid rgba(255, 255, 255, 0.327);
+    padding: 2rem;
+    height: fit-content;
+    border-radius: 0.5rem;
+    background: rgba(2, 0, 14, 0.53);
+    backdrop-filter: blur(2px);
+    transition: 0.4s;
+    width: 100%;
+}
+
+.journey-container.flex {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.journey-tab.small {
+    aspect-ratio: 1.7;
+    width: 45%;
+}
+
+.journey-tab.small h4 {
+    margin: 1rem 0;
+}
+
+.journey-tab.small h3 {
+    text-align: center;
+}
+
+.journey-tab:hover {
+    filter: brightness(1.4);
+}
+
+.journey-tab h3 {
+    color: var(--purple);
+    margin-bottom: 1rem;
+}
+
+.journey-tab h4 {
+    width: 90%;
+}
+.journey-tab i {
+    padding: 0;
+    margin: 0;
+    color: var(--yellow);
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    font-size: var(--h3-font-size);
+    transition: 0.4s;
+}
+
+.journey-text {
+    flex: 2;
+}
+
+.sub-text {
+    opacity: 0;
+    animation: fadetop 300ms ease-in-out forwards;
+    animation-delay: 500ms;
+    transition: height 500ms ease-in-out;
+    overflow: hidden;
+}
+
+.sub-text:not(.active) {
+    display: none;
+}
+
+.journey-tab i[data-cur="0"] {
+    animation: rotationA forwards 500ms;
+}
+
+.journey-tab i[data-cur="180"] {
+    animation: rotation forwards 500ms;
+}
+@media (max-width:1050px) {
+    .journey-container.flex {
+        justify-content: center;
+    }
+
+    .journey-tab.small {
+        aspect-ratio: auto;
+        width: 100%;
+    }
+
+    .journey-tab.small h3 {
+        text-align: left;
+    }
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes rotationA {
+    from {
+        transform: rotate(180deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes fadetop {
+    from {
+        opacity: 0;
+        transform: translateY(-10%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
