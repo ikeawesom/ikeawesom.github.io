@@ -65,7 +65,6 @@ header a {
     .primary-navigation {
 
         --gap: 3rem;
-
         position: fixed;
         height: 100%;
         min-height: 100vh;
@@ -79,7 +78,8 @@ header a {
         inset: 0 0 0 0%;
 
         transition: transform 350ms ease-in;
-        background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), transparent, transparent);
+        background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.485), transparent);
+        backdrop-filter: blur(2px);
     }
 
     .mobile-nav-toggle {

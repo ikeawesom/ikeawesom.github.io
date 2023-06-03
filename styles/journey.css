@@ -5,7 +5,7 @@
     padding: 2rem;
     height: fit-content;
     border-radius: 0.5rem;
-    background: rgba(2, 0, 14, 0.53);
+    background: rgba(2, 0, 14, 0.3);
     backdrop-filter: blur(2px);
     transition: 0.4s;
     width: 100%;
