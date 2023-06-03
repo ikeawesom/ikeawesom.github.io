@@ -30,6 +30,11 @@
 
 .about-container-text h4{
     margin-bottom: var(--line-height);
+    text-align: justify;
+}
+
+.about-container-text p {
+    text-align: justify;
 }
 
 .experience-container {
