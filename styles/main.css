@@ -26,6 +26,8 @@
     --green-tint: rgba(0, 174, 43, 0.741);
 
     --wrapper: 15vw;
+
+    --header-spacing: 0.8rem;
     
     /* Font sizes */
     --h1-font-size: 3.5em;
@@ -106,6 +108,10 @@ i:hover {
 a {
     text-decoration: none;
     color: inherit;
+}
+
+ul {
+    list-style: none;
 }
 
 button {
