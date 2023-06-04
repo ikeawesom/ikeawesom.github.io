@@ -79,13 +79,18 @@
 .journey-tab h4 {
     width: 90%;
 }
+.journey-tab.scroll-hidden.top p {
+    width: 80%;
+}
+
 .journey-tab i {
+    z-index: 100;
     padding: 0;
     margin: 0;
     color: var(--yellow);
     position: absolute;
-    bottom: 1rem;
-    right: 1rem;
+    bottom: var(--pad,1rem);
+    right: var(--pad,1rem);
     font-size: var(--h3-font-size);
     transition: 0.4s;
 }
@@ -136,11 +141,19 @@
     .journey-tab {
         --pad:1.3rem
     }
+
+    .journey-tab i {
+        --pad: 0.8rem;
+    }
 }
 
 @media (max-width:500px) {
     .journey-tab {
         --pad:1rem
+    }
+
+    .journey-tab i {
+        --pad: 0.5rem;
     }
 }
 
