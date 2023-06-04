@@ -73,6 +73,10 @@ body {
     overflow-x: hidden;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 h1, h2, h3, h4 {
     letter-spacing: 0.1em;
     color: var(--banner-text);
@@ -137,7 +141,6 @@ input {
 
 .page {
     margin: 20rem 0;
-    overflow-x: hidden;
 }
 
 .title {
