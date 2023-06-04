@@ -19,11 +19,14 @@
     --yellow:#fff54d;
     --banner-text:#e8e6ff;
     --grey:rgb(179, 179, 179);
+    --dark-grey:rgb(58, 58, 58);
     --blue-ball:#4fc3dc;
     --red-ball:#ff2d75;
     --yellow-tint: rgba(229, 233, 0, 0.741);
     --red-tint: rgba(222, 77, 77, 0.741);
     --green-tint: rgba(0, 174, 43, 0.741);
+    --footer-colour: rgba(246, 243, 255,1);
+    --box-shadow-black:rgba(99, 99, 99, 0.21);
 
     --wrapper: 15vw;
 
@@ -57,8 +60,8 @@
     --line-height-ss: 1.3rem;
 
     /* Even Even Smaller Font sizes */
-    --h1-font-size-sss: 1.5em;
-    --h2-font-size-sss: 1.3em;
+    --h1-font-size-sss: 1.3em;
+    --h2-font-size-sss: 1.1em;
     --h3-font-size-sss: 1em;
     --h4-font-size-sss: 0.8em;
     --i-font-size-sss: 0.8em;
@@ -134,6 +137,7 @@ input {
 
 .page {
     margin: 20rem 0;
+    overflow-x: hidden;
 }
 
 .title {
@@ -158,19 +162,19 @@ input {
 }
 
 .scroll-hidden.left {
-    transform: translateX(-70%);
+    transform: translateX(-30%);
 }
 
 .scroll-hidden.right {
-    transform: translateX(70%);
+    transform: translateX(30%);
 }
 
 .scroll-hidden.top {
-    transform: translateY(-70%);
+    transform: translateY(-30%);
 }
 
 .scroll-hidden.bottom {
-    transform: translateY(70%);
+    transform: translateY(30%);
 }
 
 .scroll-hidden.show {
@@ -209,6 +213,10 @@ input {
         font-size: var(--p-font-size-s);
         line-height: var(--line-height-s);
     }
+    li {
+        font-size: var(--p-font-size-s);
+        line-height: var(--line-height-s);
+    }
     i {
         font-size: var(--i-font-size-s);
     }
@@ -235,6 +243,10 @@ input {
         font-size: var(--p-font-size-ss);
         line-height: var(--line-height-ss);
     }
+    li {
+        font-size: var(--p-font-size-ss);
+        line-height: var(--line-height-ss);
+    }
     i {
         font-size: var(--i-font-size-ss);
     }
@@ -257,6 +269,10 @@ input {
         font-size: var(--h4-font-size-sss);
     }
     p {
+        font-size: var(--p-font-size-sss);
+        line-height: var(--line-height-sss);
+    }
+    li {
         font-size: var(--p-font-size-sss);
         line-height: var(--line-height-sss);
     }

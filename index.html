@@ -51,7 +51,7 @@
     </div>
 
     <!-- Nav Bar -->
-    <header class="primary-header">
+    <header class="primary-header" data-home="true">
         <div class="header-container flex">
             <div class="breadcrumb">
                 <a href="index.html">
@@ -319,20 +319,124 @@
         <section id="services" class="page">
             <h1 class="title scroll-hidden top noanim">ike<span class="subtitle">.services()</span></h1>
             <div class="services-container flex">
-                <div class="services-tab">
+                <div class="services-tab scroll-hidden left">
                     <i class="icon uil uil-browser"></i>
                     <h4>Web Developer</h4>
-                    <i class="uil uil-arrow-down-right"></i>
+                    <i data-service="Web Developer" class="uil uil-arrow-down-right"></i>
                 </div>
-                <div class="services-tab">
+                <div class="services-tab scroll-hidden left">
                     <i class="icon uil uil-arrow"></i>
                     <h4>Software Engineer</h4>
-                    <i class="uil uil-arrow-down-right"></i>
+                    <i data-service="Software Engineer" class="uil uil-arrow-down-right"></i>
                 </div>
-                <div class="services-tab">
-                    <i class="icon uil uil-video"></i>
-                    <h4>Video Editor</h4>
-                    <i class="uil uil-arrow-down-right"></i>
+                <div class="services-tab scroll-hidden left">
+                    <i class="icon uil uil-icons"></i>
+                    <h4>UI/UX Designer</h4>
+                    <i data-service="UI/UX Designer" class="uil uil-arrow-down-right"></i>
+                </div>
+
+                <!-- Modals -->
+                <div id="services-modal" class="modal">
+                    <div class="modal-container">
+                        <span class="close">&times;</span>
+                        <h3 class="modal-title">Web Developer</h3>
+                        <div class="modal-content" data-service="Web Developer">
+                            <p>Do you need a personal website for your portfolio? Or even a professional website for your business?
+                            If those are your needs, you have come to the right place.</p>
+                            <p><b>What you can expect from me?</b></p>
+                            <ul>
+                                <li><i class="uil uil-check-circle"></i>Mobile Responsive</li>
+                                <li><i class="uil uil-check-circle"></i>Fast & Secure</li>
+                                <li><i class="uil uil-check-circle"></i>Easily Editable</li>
+                                <li><i class="uil uil-check-circle"></i>Catered to Your Audience</li>
+                                <li><i class="uil uil-check-circle"></i>Royalty Free Images</li>
+                            </ul>
+                            <p>Your satisfaction is what I desire, so I offer <b>ulimited revisions</b> to all my packages, meaning that I will work on your website till you are pleased with the result.</p>
+                            <p><b>What do I need from you to start your website design?</b></p>
+                            <ul>
+                                <li><i class="uil uil-pen"></i>Brief Story/Specification requirements</li>
+                                <li><i class="uil uil-pen"></i>Provide your style guide & logo (i.e. colour, theme, etc.)</li>
+                                <li><i class="uil uil-pen"></i>Some reference websites (if applicable)</li>
+                            </ul>
+                            <p>Let us work together and build your online platform.</p>
+                        </div>
+                        <div class="button-container">
+                            <a href="pricing.html#web">
+                                <button>
+                                    I need a project! <span><i class="uil uil-arrow-right"></i></span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="modal-container">
+                        <span class="close">&times;</span>
+                        <h3 class="modal-title">Software Developer</h3>
+                        <div class="modal-content">
+                            <p>Are you dealing with long and tiring manual inputs? Are you looking for a custom built, 
+                                simple and efficient automated software to aid you in your personal or business use?<br>
+                            If those are your needs, you have come to the right place.</p>
+                            <p><b>What you can expect from me</b></p>
+                            <ul>
+                                <li><i class="uil uil-check-circle"></i>Mobile/Desktop Compatible</li>
+                                <li><i class="uil uil-check-circle"></i>Database/Record Systems</li>
+                                <li><i class="uil uil-check-circle"></i>Personal/Company Software</li>
+                                <li><i class="uil uil-check-circle"></i>Software as a Service</li>
+                                <li><i class="uil uil-check-circle"></i>Excellent User Interface</li>
+                            </ul>
+                            <p>Your satisfaction is what I desire, so I offer <b>ulimited revisions</b> to all my packages, meaning that I will work on your software until you are pleased with the result.</p>
+                            <p><b>What do I need from you to start building your app?</b></p>
+                            <ul>
+                                <li><i class="uil uil-pen"></i>Brief Story/Specification requirements</li>
+                                <li><i class="uil uil-pen"></i>Provide your style guide & logo (i.e. colour, theme, etc.)</li>
+                                <li><i class="uil uil-pen"></i>Some reference designs (if applicable)</li>
+                            </ul>
+                            <p>Ready to get started? Let's discuss your next project.</p>
+                        </div>
+                        <div class="button-container">
+                            <a href="pricing.html#software">
+                                <button>
+                                    I need a project! <span><i class="uil uil-arrow-right"></i></span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="modal-container">
+                        <span class="close">&times;</span>
+                        <h3 class="modal-title">UI/UX Designer</h3>
+                        <div class="modal-content">
+                            <p>If you have a great app idea and need a designer to provide stunning user interfaces, then you're in the right place!
+                                I will create a professional, modern, and unique UI for your mobile/web application.</p>
+                            <p><b>What you can expect from me</b></p>
+                            <ul>
+                                <li><i class="uil uil-check-circle"></i>Pixel Perfect UI Design</li>
+                                <li><i class="uil uil-check-circle"></i>Fast Delivery</li>
+                                <li><i class="uil uil-check-circle"></i>High-Quality Mockups</li>
+                                <li><i class="uil uil-check-circle"></i>Latest UI Design Trends</li>
+                            </ul>
+                            <p>Your satisfaction is what I desire, so I offer <b>ulimited revisions</b> to all my packages, meaning that I will work on your software until you are pleased with the result.</p>
+                            <p><b>What do I need from you to start building your app?</b></p>
+                            <ul>
+                                <li><i class="uil uil-pen"></i>Description/Sketches of what should appear on each screen</li>
+                                <li><i class="uil uil-pen"></i>Provide your style guide & logo (i.e. colour, theme, etc.)</li>
+                                <li><i class="uil uil-pen"></i>Some reference designs (if applicable)</li>
+                                <li><i class="uil uil-pen"></i>Target Audience (if applicable)</li>
+                            </ul>
+                            <p><b>NOTE:</b> I will not develop your application but only the design of it so the result will not include code.</p>
+                            <p>Let's start designing together.</p>
+
+                        </div>
+                        <div class="button-container">
+                            <a href="pricing.html#software">
+                                <button>
+                                    I need a project! <span><i class="uil uil-arrow-right"></i></span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
         </section>
@@ -416,6 +520,7 @@
     <script src="scripts/animations.js"></script>
     <script src="scripts/navbar.js"></script>
     <script src="scripts/journey.js"></script>
+    <script src="scripts/modal.js"></script>
 </body>
 
 </html>

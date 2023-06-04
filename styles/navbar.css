@@ -9,6 +9,9 @@
     pointer-events: none;
     background: linear-gradient(to bottom, rgb(7, 0, 41),rgba(5, 0, 31, 0.6), rgba(5, 0, 31, 0));
     animation: fadedown 2s ease-in-out forwards;
+}
+
+.primary-header[data-home="true"] {
     animation-delay: 4s;
 }
 
