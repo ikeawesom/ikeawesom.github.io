@@ -10,7 +10,7 @@
 .primary-footer {
     z-index: 1000;
     justify-content: center;
-    gap: 3rem;
+    gap: 6vh;
     flex-direction: column;
     height: 50vh;
     width: 100%;
