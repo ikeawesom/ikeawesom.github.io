@@ -1,11 +1,11 @@
 .journey-tab {
     position: relative;
-    margin: 3rem 0;
-    border: 1.5px solid rgba(255, 255, 255, 0.327);
+    margin-bottom: 3rem;
+    border: 1.5px solid var(--grey-border);
     padding: var(--pad,2rem);
     height: fit-content;
     border-radius: 0.5rem;
-    background: rgba(2, 0, 14, 0.3);
+    background: var(--black-backdrop);
     backdrop-filter: blur(2px);
     /* transition: filter 0.4s; */
     width: 100%;
@@ -33,8 +33,9 @@
 }
 
 .journey-tab.small {
-    aspect-ratio: 1.7;
-    width: 45%;
+    /* aspect-ratio: 1.7; */
+    width: var(--size, 45%);
+    height: var(--size);
 }
 
 .journey-tab.small.scroll-hidden.show:nth-child(1) {
@@ -185,4 +186,3 @@
         transform: translateY(0);
     }
 }
-
