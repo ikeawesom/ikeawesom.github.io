@@ -26,7 +26,9 @@
     --red-tint: rgba(222, 77, 77, 0.741);
     --green-tint: rgba(0, 174, 43, 0.741);
     --footer-colour: rgba(246, 243, 255,1);
-    --box-shadow-black:rgba(99, 99, 99, 0.21);
+    --box-shadow-black:rgba(28, 28, 28, 0.3);
+    --grey-border: rgba(255, 255, 255, 0.327);
+    --black-backdrop: rgba(2, 0, 14, 0.3);
 
     --wrapper: 15vw;
 
@@ -140,7 +142,7 @@ input {
 }
 
 .page {
-    margin: 20rem 0;
+    margin: min(20vh, 20vw) 0;
 }
 
 .title {
@@ -149,6 +151,7 @@ input {
 
 .comment {
     margin-top: 5rem;
+    margin-bottom: 3rem;
     color: var(--green);
 }
 
