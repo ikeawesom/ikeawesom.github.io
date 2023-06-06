@@ -13,7 +13,7 @@
 .about-container .image-container img {
     aspect-ratio: 1;
     width: 25vw;
-    box-shadow: 0 0 30px 50px var(--box-shadow-black);
+    box-shadow: 0 0 10px 5px var(--box-shadow-black);
     transition: 0.3s;
 }
 
