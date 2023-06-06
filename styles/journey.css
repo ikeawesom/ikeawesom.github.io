@@ -74,7 +74,7 @@
 
 .journey-tab h3 {
     color: var(--purple);
-    margin-bottom: 1rem;
+    margin-bottom: 0.5⁶!rem;
 }
 
 .journey-tab h4 {
@@ -98,6 +98,10 @@
 
 .journey-text {
     flex: 2;
+}
+
+.break {
+    margin: 0.5rem p;
 }
 
 .sub-text {
