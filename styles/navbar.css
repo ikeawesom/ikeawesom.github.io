@@ -40,6 +40,7 @@ header a {
 .primary-navigation {
     list-style: none;
     gap: var(--gap, 1rem);
+    padding: 0 1rem;
 }
 
 .primary-navigation i {
@@ -80,9 +81,9 @@ header a {
         transform: translateX(100%);
         padding: 20vh 5rem;
         inset: 0 0 0 0%;
-
-        transition: transform 350ms ease-in;
-        background: linear-gradient(to left, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.526), rgba(0, 0, 0, 0.485), transparent);
+        opacity: 0;
+        transition: transform 0s ease-in-out 450ms, opacity 400ms ease-in-out;
+        background: rgba(0, 0, 0, 0.8);
     }
 
     .mobile-nav-toggle {
@@ -97,16 +98,20 @@ header a {
     }
 
     .primary-navigation[data-visible="true"] {
+        opacity: 1;
         transform: translateX(0%);
+        transition: transform 0ms ease-in-out, opacity 400ms ease-in-out 200ms;
     }
 
     .primary-navigation li[data-visible="false"] {
         opacity: 0;
+        transform: translateX(20%);
         transition: 0s;
     }
 
     .primary-navigation li[data-visible="true"] {
         opacity: 1;
+        transform: translateX(0);
         transition: 0.3s;
     }
 
