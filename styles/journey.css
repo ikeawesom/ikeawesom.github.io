@@ -1,11 +1,7 @@
 .journey-tab {
     position: relative;
     margin-bottom: 3rem;
-<<<<<<< HEAD
-    border: 1.5px solid rgba(255, 255, 255, 0.327);
-=======
     border: 1.5px solid var(--grey-border);
->>>>>>> ee3b96558434defb46b351cfd32c5960adb71ba7
     padding: var(--pad,2rem);
     height: fit-content;
     border-radius: 0.5rem;
