@@ -1,21 +1,28 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
     <link rel="icon" href="resources/misc/icon.png">
+
 
     <!-- Other CSS files -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <!--  -->
 
 
+
+
     <!-- Main CSS files -->
+    <link rel="stylesheet" href="styles/fontawesome-min.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/wallpaper.css">
     <link rel="stylesheet" href="styles/landing.css">
@@ -24,13 +31,17 @@
     <link rel="stylesheet" href="styles/services.css">
     <link rel="stylesheet" href="styles/journey.css">
     <link rel="stylesheet" href="styles/portfolio.css">
+    <link rel="stylesheet" href="styles/project-banner.css">
     <link rel="stylesheet" href="styles/footer.css">
     <!--  -->
+
 
     <title>Ike Lim</title>
 </head>
 
+
 <body>
+
 
     <!-- Dot Animations -->
     <div class="dot-container">
@@ -60,6 +71,7 @@
         </div>
     </div>
 
+
     <!-- Nav Bar -->
     <header class="primary-header" data-home="true">
         <div class="header-container flex">
@@ -69,24 +81,26 @@
                 </a>
             </div>
 
+
             <nav>
                 <i class="mobile-nav-toggle uil uil-apps" aria-controls="primary-navigation" aria-expanded="false"></i>
 
+
                 <ul data-visible="false" id="primary-navigation" class="primary-navigation flex">
-                    <li class="active" data-visible="false">
+                    <li data-visible="false" class="active page-landing">
                         <a href="#">.home()</a>
                     </li>
-                    <li data-visible="false">
+                    <li data-visible="false" class="page-about">
                         <a href="#about">.about()</a>
                     </li>
-                    <li data-visible="false">
+                    <li data-visible="false" class="page-services">
                         <a href="#services">.services()</a>
                     </li>
-                    <li data-visible="false">
+                    <li data-visible="false" class="page-portfolio">
                         <a href="#portfolio">.portfolio()</a>
                     </li>
                     <li data-visible="false">
-                        <a href="#contact">.contact()</a>
+                        <a href="pricing.html">.pricing()</a>
                     </li>
                     <li data-visible="false" class="flex">
                         <a href="https://instagram.com/ikeawesom">
@@ -102,11 +116,14 @@
                 </ul>
             </nav>
 
+
         </div>
     </header>
 
+
     <!-- Main Body -->
     <section id="page-wrapper">
+
 
         <section id="landing">
             <div class="flex title">
@@ -119,6 +136,7 @@
                             <span class="red">
                                 <h1>></h1>
                             </span>
+
 
                         </div>
                         <div class="flex">
@@ -142,6 +160,7 @@
                             </span>
                         </div>
                     </div>
+
 
                     <div class="name">
                         <div class="flex">
@@ -168,10 +187,12 @@
                         </div>
                     </div>
 
+
                     <p>Just a student who enjoys playing with software.</p>
                 </div>
             </div>
         </section>
+
 
         <!-- About Me  -->
         <section id="about" class="page">
@@ -189,6 +210,7 @@
                         </p>
                     </div>
 
+
                     <div class="experience-container flex">
                         <div class="experience-tab scroll-hidden top noanim">
                             <h3>03+</h3>
@@ -204,18 +226,23 @@
                         </div>
                     </div>
 
+
                     <!-- Download CV -->
                     <button class="scroll-hidden bottom noanim">
                         Download CV <i class="uil uil-download-alt"></i>
                     </button>
                 </div>
 
+
             </div>
+
 
             <!-- Education -->
             <h2 class="comment scroll-hidden top noanim">// my education</h1>
 
+
                 <div class="journey-container">
+
 
                     <div class="journey-tab scroll-hidden top">
                         <div>
@@ -261,10 +288,13 @@
                     </div>
                 </div>
 
+
                 <!-- Experience -->
                 <h2 class="comment scroll-hidden top noanim">// my experience</h1>
 
+
                     <div class="journey-container flex">
+
 
                         <div class="journey-tab small scroll-hidden left">
                             <div>
@@ -277,6 +307,7 @@
                             </div>
                         </div>
 
+
                         <div class="journey-tab small scroll-hidden left">
                             <div>
                                 <h3>Sentinels</h3>
@@ -288,6 +319,7 @@
                             </div>
                         </div>
 
+
                         <div class="journey-tab small scroll-hidden left">
                             <div>
                                 <h3>National Olympiad in Informatics</h3>
@@ -298,6 +330,7 @@
                             </div>
                         </div>
 
+
                         <div class="journey-tab small scroll-hidden left">
                             <div>
                                 <h3>Canadian Computing Competition</h3>
@@ -307,6 +340,7 @@
                                 </div>
                             </div>
                         </div>
+
 
                         <div class="journey-tab small scroll-hidden left">
                             <div>
@@ -319,8 +353,11 @@
                         </div>
 
 
+
+
                     </div>
         </section>
+
 
         <!-- Services: What I Offer -->
         <section id="services" class="page">
@@ -341,6 +378,7 @@
                     <h4>UI/UX Designer</h4>
                     <i data-service="UI/UX Designer" class="uil uil-arrow-down-right"></i>
                 </div>
+
 
                 <!-- Modals -->
                 <div id="services-modal" class="modal">
@@ -380,6 +418,7 @@
                         </div>
                     </div>
 
+
                     <div class="modal-container">
                         <span class="close">&times;</span>
                         <h3 class="modal-title">Software Developer</h3>
@@ -416,6 +455,7 @@
                         </div>
                     </div>
 
+
                     <div class="modal-container">
                         <span class="close">&times;</span>
                         <h3 class="modal-title">UI/UX Designer</h3>
@@ -446,6 +486,7 @@
                                 will not include code.</p>
                             <p>Let's start designing together.</p>
 
+
                         </div>
                         <div class="button-container">
                             <a href="pricing.html#software">
@@ -455,6 +496,8 @@
                             </a>
                         </div>
                     </div>
+
+
 
 
                 </div>
@@ -467,49 +510,189 @@
                 ike<span class="subtitle">.portfolio()</span>
             </h1>
 
+
             <h2 class="comment scroll-hidden top noanim">// latest works</h1>
-            
+           
             <div class="portfolio-container highlights flex">
                 <div class="portfolio-item highlights scroll-hidden left flex" data-side="left">
                     <div class="portfolio-background flex" id="portfolio-passsafe"data-side="right" >
-                        <div class="portfolio-content flex" >
+                        <div class="portfolio-banner"></div>
+                        <div class="portfolio-content" >
                             <div class="text">
-                                <h2>PassSafe</h2>
+                                <h3>PassSafe</h3>
                                 <p>Want to be safe online but too many passwords to remember?
                                     Do not fear, PassSafe is here.</p>
                             </div>
                             <button>
-                                Read More <i class="uil uil-arrow-right"></i>
+                                <span class="button-banner"></span>
+                                Read More <span><i class="uil uil-arrow-right"></i></span>
                             </button>
                         </div>
                     </div>
                 </div>
-    
+   
                 <div class="portfolio-item highlights scroll-hidden right flex" data-side="right">
                     <div class="portfolio-background flex" id="portfolio-mademoiselle" data-side="left">
-                        <div class="portfolio-content flex">
+                        <div class="portfolio-banner"></div>
+                        <div class="portfolio-content">
                             <div class="text">
-                                <h2>Mademoiselle Angel</h2>
+                                <h3>Mademoiselle Angel</h3>
                                 <p>Online ecommerce platform for a family business.</p>
                             </div>
                             <button>
-                                Read More <i class="uil uil-arrow-right"></i>
+                                <span class="button-banner"></span>
+                                Read More <span><i class="uil uil-arrow-right"></i></span>
                             </button>
                         </div>
                     </div>
                 </div>
-
             </div>
-            
+
+
+            <h2 class="comment scroll-hidden top noanim">// more projects</h1>
+
+
+            <div class="portfolio-container">
+                <div class="portfolio-item flex scroll-hidden top" id="portfolio-game" data-size="long">
+                    <div class="portfolio-content flex">
+                        <div class="text">
+                            <h3>Zombie Killer</h3>
+                            <div class="flex">
+                                <i class="fa-brands fa-unity fa-rotate-90"></i>
+                                <p>C#</p>
+                            </div>
+                            <!-- <p>First Unity game I developed. A side project during the holidays in my spare time.
+                                Not the best but I am quite proud of it considering it was my first time
+                                developing using Unity.</p> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="grid second-row">
+                   
+                    <div class="portfolio-item flex scroll-hidden left" id="portfolio-vid2" data-size="default">
+                        <div class="portfolio-content flex">
+                            <div class="text">
+                                <h3>Privacy</h3>
+                                <div class="flex">
+                                    <img src="./resources/misc/ps.png" alt="Photoshop">
+                                    <img src="./resources/misc/pp.png" alt="Premier Pro">
+                                    <img src="./resources/misc/audacity.png" alt="Audacity">
+                                </div>
+                                <!-- <p>School Project</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item flex scroll-hidden left" id="portfolio-vid1" data-size="default">
+                        <div class="portfolio-content flex">
+                            <div class="text">
+                                <h3>Social Media</h3>
+                                <div class="flex">
+                                    <img src="./resources/misc/ps.png" alt="Photoshop">
+                                    <img src="./resources/misc/pp.png" alt="Premier Pro">
+                                    <img src="./resources/misc/audacity.png" alt="Audacity">
+                                </div>
+                                <!-- <p>School Project</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item flex scroll-hidden left" id="portfolio-vid3" data-size="default">
+                        <div class="portfolio-content flex">
+                            <div class="text">
+                                <h3>Chemistry</h3>
+                                <div class="flex">
+                                    <img src="./resources/misc/ps.png" alt="Photoshop">
+                                    <img src="./resources/misc/camtasia.png" alt="Camtasia Studio">
+                                    <img src="./resources/misc/audacity.png" alt="Audacity">
+                                </div>
+                                <!-- <p>School Project</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="grid third-row">
+                    <div class="portfolio-item flex scroll-hidden bottom" id="portfolio-econs" data-size="big">
+                        <div class="portfolio-content flex">
+                            <div class="text">
+                                <h3>Economics Manager</h3>
+                                <div class="flex">
+                                    <i class="fa-brands fa-python"></i>
+                                </div>
+                                <!-- <p>Specially designed to meet the needs of a teacher, this software made use of python's turtle library to create the simple graphical user interface for the users' desires.</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item flex scroll-hidden right" id="portfolio-clash" data-size="default">
+                        <div class="portfolio-content flex">
+                            <div class="text">
+                                <h3>Clash Royale</h3>
+                                <div class="flex">
+                                    <i class="fa-brands fa-python"></i>
+                                    <i class="fa-brands fa-html5"></i>
+                                    <i class="fa-brands fa-css3-alt"></i>
+                                    <i class="fa-brands fa-js"></i>
+                                </div>
+                                <!-- <p>School Proj;ect</p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-item flex scroll-hidden right" id="portfolio-site" data-size="default">
+                        <div class="portfolio-content flex">
+                            <div class="text">
+                                <h3>Old Portfolio</h3>
+                                <div class="flex">
+                                    <i class="fa-brands fa-html5"></i>
+                                    <i class="fa-brands fa-css3-alt"></i>
+                                    <i class="fa-brands fa-js"></i>
+                                </div>
+                                <!-- <p>Old Portfolio</p> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+               
+            </div>
+           
         </section>
-        <!-- Contact Me for Projects -->
+
 
         <!-- Testimonials -->
+        <!-- TO DO -->
 
-        <!-- Contact Me Form -->
 
-
+        <!-- Contact Me for Projects -->
+        <section id="project-banner" class="page">
+            <div class="banner flex scroll-hidden top">
+                <div class="text">
+                    <h3>You got a project idea?</h3>
+                    <p>Contact me now and get a <span class="discount">30% discount</span> on your new project.</p>
+                    <button onclick="window.location.href = 'pricing.html'">
+                        <span class="shine"></span>
+                        Get In Touch <i class="uil uil-arrow-right"></i>
+                    </button>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>
+                            <i class="uil uil-check-circle"></i>
+                            Unlimited Revisions
+                        </li>
+                        <li>
+                            <i class="uil uil-check-circle"></i>
+                            Affordable Pricing
+                        </li>
+                        <li>
+                            <i class="uil uil-check-circle"></i>
+                            Catered to Your Audience
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+       
     </section>
+
 
     <!-- Footer -->
     <footer class="primary-footer flex">
@@ -539,6 +722,8 @@
     </footer>
 
 
+
+
     <!-- <div class="socials">
         <a href="https://www.linkedin.com/in/ike-lim-633049250/" target="_blank">
             <i class="fa-brands fa-linkedin"></i>
@@ -550,10 +735,12 @@
             <i class="fa-brands fa-instagram"></i>
         </a>
 
+
         <a href="https://bit.ly/ike-resume" target="_blank">
             <i class="fa-solid fa-user"></i>
         </a>
     </div> -->
+
 
     <!-- <section id="template">
         <h1>H1</h1>
@@ -564,8 +751,8 @@
         <hr>
         <h1>Title</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iure et quos facilis necessitatibus placeat sed rerum aliquid dolores, itaque eos consequuntur consectetur veniam iusto, dolorum esse consequatur cum est.</p>
-    
-    
+   
+   
         <section id="theme-dark" class="theme">
             <h1>Heading</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iure et quos facilis necessitatibus placeat sed rerum aliquid dolores, itaque eos consequuntur consectetur veniam iusto, dolorum esse consequatur cum est.</p>
@@ -575,12 +762,15 @@
             <i class='bx bx-menu-alt-right'></i>
         </section>
 
+
     </section> -->
+
 
     <script src="scripts/animations.js"></script>
     <script src="scripts/navbar.js"></script>
     <script src="scripts/journey.js"></script>
     <script src="scripts/modal.js"></script>
 </body>
+
 
 </html>
