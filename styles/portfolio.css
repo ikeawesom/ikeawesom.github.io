@@ -324,11 +324,8 @@
 .portfolio-container.highlights .portfolio-content p {
     font-size: smaller;
     line-height: 1.5rem;
-}
-
-
-.portfolio-container.highlights .portfolio-content p {
-    margin: min(2vh, 2vw) 0
+    margin: min(2vh, 2vw) 0;
+    color: grey;
 }
 
 
