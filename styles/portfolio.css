@@ -1,0 +1,91 @@
+.portfolio-container.highlights {
+    width: 100%;
+    flex-direction: column;
+    gap: 10vh;
+}
+
+.portfolio-container.highlights .portfolio-item {
+    width: 100%;
+    height: 70vh;
+}
+
+.portfolio-container.highlights .portfolio-item[data-side="right"] {
+    justify-content: end;
+}
+
+.portfolio-container.highlights .portfolio-item[data-side="left"] {
+    justify-content: start;
+}
+
+.portfolio-item.highlights:nth-child(1) {
+    transition: opacity 400ms ease-in-out 100ms, transform 400ms ease-in-out 100ms;
+}
+
+.portfolio-item.highlights:nth-child(2) {
+    transition: opacity 400ms ease-in-out 300ms, transform 400ms ease-in-out 300ms;
+}
+
+.portfolio-container.highlights .portfolio-background {
+    width: 80%;
+    filter: brightness(1.5);
+    box-shadow: 0 0 3px 1px rgba(255,255,255,0.5);
+    align-items: end;
+    padding: 3rem;
+    transition: all 0.4s ease-in-out;
+}
+
+.portfolio-container.highlights .portfolio-background[data-side="right"] {
+    justify-content: center;
+}
+
+.portfolio-container.highlights .portfolio-background[data-side="left"] {
+    justify-content: center;
+}
+
+.portfolio-container.highlights .portfolio-background:hover {
+    cursor: pointer;
+    filter: brightness(1.8);
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.51);
+}
+
+.portfolio-container.highlights .portfolio-background:hover .portfolio-content{
+    transform: scale(1.1);
+}
+
+.portfolio-container.highlights .portfolio-content {
+    transition: all 0.3s ease-in-out;
+    transition-delay: 500ms;
+    width: 40%;
+    align-items: start;
+    justify-content: space-between;
+    gap: 3vh;
+    flex-direction: column;
+}
+
+.portfolio-container.highlights .portfolio-content[data-side="right"] {
+    right: 5rem;
+}
+
+.portfolio-container.highlights .portfolio-content[data-side="left"] {
+    left: 5rem;
+}
+
+.portfolio-container.highlights .portfolio-content p {
+    margin-top: 0.5rem;
+}
+
+.portfolio-container.highlights #portfolio-passsafe,
+.portfolio-container.highlights #portfolio-mademoiselle {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Adding backgrounds */
+#portfolio-passsafe {
+    background: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url('../resources/projects/passSafe/project.png');
+}
+
+#portfolio-mademoiselle {
+    background: linear-gradient(to left, rgba(0,0,0,0.7), rgba(0,0,0,0.8)), url('../resources/projects/mademoiselle.png');
+}
