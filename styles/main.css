@@ -168,19 +168,19 @@ input {
 }
 
 .scroll-hidden.left {
-    transform: translateX(-30%);
+    transform: translateX(-10%);
 }
 
 .scroll-hidden.right {
-    transform: translateX(30%);
+    transform: translateX(10%);
 }
 
 .scroll-hidden.top {
-    transform: translateY(-30%);
+    transform: translateY(-10%);
 }
 
 .scroll-hidden.bottom {
-    transform: translateY(30%);
+    transform: translateY(10%);
 }
 
 .scroll-hidden.show {
@@ -189,7 +189,7 @@ input {
 }
 
 
-@media (max-width:800px) {
+@media (max-width:1000px) {
     #page-wrapper {
         --wrapper: 4rem;
     }
