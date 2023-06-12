@@ -20,10 +20,6 @@
 
 .testimonials-container {
 
-    background: var(--black-backdrop);
-
-    backdrop-filter: blur(2px);
-
     /* border: 1px solid red; */
 
     transition: 0.4s;
