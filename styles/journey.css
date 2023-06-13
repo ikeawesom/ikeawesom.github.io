@@ -3,6 +3,7 @@
     margin-bottom: 3rem;
     border: 1.5px solid var(--grey-border);
     padding: var(--pad,2rem);
+    padding-bottom: var(--padb,1.5rem);
     height: fit-content;
     border-radius: 0.5rem;
     background: var(--black-backdrop);
@@ -129,6 +130,9 @@
     overflow: hidden;
 }
 
+.sub-text p {
+    padding-top: 0.5rem;
+}
 
 .sub-text:not(.active) {
     display: none;
@@ -145,7 +149,8 @@
 }
 @media (max-width:1050px) {
     .journey-tab {
-        --pad:1.8rem
+        --pad:1.8rem;
+        --padb:1rem;
     }
 
 
