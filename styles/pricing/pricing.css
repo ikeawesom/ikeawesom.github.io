@@ -44,13 +44,35 @@
 .heading {
     width: 100%;
     text-align: center;
-    margin: 10vh auto;
+    margin: min(30vh, 30vw) auto;
 }
 
 
 .heading .title {
-    margin: 1.5rem;
+    margin: 1.5rem 0;
+    font-size: 4rem;
     color: var(--purple);
+}
+
+
+@media (max-width:750px) {
+    .heading .title{
+        font-size: 3.2rem;
+    }
+}
+
+
+@media (max-width:500px) {
+    .heading .title{
+        font-size: 3rem;
+    }
+}
+
+
+@media (max-width:300px) {
+    .heading .title{
+        font-size: 2.6rem;
+    }
 }
 
 
