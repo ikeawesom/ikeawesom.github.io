@@ -180,6 +180,11 @@
 
 
 @media (max-width:400px) {
+
+    .portfolio-container-1 .portfolio-item {
+        aspect-ratio: 0.6;
+    }
+
     .portfolio-container-1 .portfolio-item .text h3 {
         font-size: var(--h3-font-size-sss);
     }
@@ -187,6 +192,19 @@
 
     .portfolio-container-1 .portfolio-item .text p {
         font-size: var(--p-font-size-sss);
+    }
+   
+}
+
+@media (max-width:300px) {
+
+    .portfolio-container-1 .portfolio-item .text h3 {
+        font-size: 0.8rem;
+    }
+
+
+    .portfolio-container-1 .portfolio-item .text p {
+        font-size: 0.6rem;
     }
    
 }
