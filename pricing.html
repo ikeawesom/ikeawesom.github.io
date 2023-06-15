@@ -15,7 +15,20 @@
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/pricing/pricing.css">
-    <title>Ike Lim</title>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init('cxeJ5cUrNDLPiVPnp');
+
+
+        })();
+    </script>
+
+
+    <title>Plans & Pricing | Ike Lim</title>
 </head>
 
 
@@ -455,17 +468,60 @@
         <section id="contact" class="page">
             <div class="heading">
                 <h1 class="title">Need a custom plan?</h1>
-                <h4>Don't worry, I am just a message away.</h4>
+                <h4>Let's get in touch.</h4>
             </div>
-            <div class="flex">
-                <span>
-                    <i class="fa-solid fa-envelope fa-bounce"></i>
-                    <h4>ikebusinessoff@gmail.com</h4>
-                </span>
-                <span>
-                    <i class="fa-solid fa-phone fa-shake"></i>
-                    <h4>+65 8781 0918</h4>
-                </span>
+            <div class="contact-container flex">
+                <div class="contact-details">
+                    <span>
+                        <i class="fa-solid fa-envelope fa-bounce"></i>
+                        <h4>ikebusinessoff@gmail.com</h4>
+                    </span>
+                    <br>
+                    <span>
+                        <i class="fa-solid fa-phone fa-shake"></i>
+                        <h4>+65 8781 0918</h4>
+                    </span>
+                </div>
+                <form>
+                    <div class="flex row">
+                        <div class="row-50">
+                            <p>First Name</p>
+                            <input type="text" id="first_name" placeholder="Enter your first name">
+                        </div>
+                        <div class="row-50">
+                            <p>Last Name</p>
+                            <input type="text" id="last_name" placeholder="Enter your last name">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <p>Email Address</p>
+                        <input type="email" id="email" placeholder="Enter your email">
+                    </div>
+                   
+                    <div class="row">
+                        <p>Interest</p>
+                        <select name="interest" id="interest">
+                            <option value="web">Web Development</option>
+                            <option value="software">Software Develpoment</option>
+                            <option value="design">UI/UX Design</option>
+                            <option value="others">Others</option>
+                        </select>
+                    </div>
+                   
+                    <div class="row">
+                        <p>Description</p>
+                        <textarea type="text" id="desc" placeholder="Tell me more..." cols="30" rows="10"></textarea>
+                    </div>    
+                   
+                    <button id="send">Contact Me<i class="uil uil-message"></i></button>
+                    <p class="status">Your message has been sent successfully. We will be in
+                        contact soon!
+                    </p>
+                </form>
+
+
+
+
             </div>
         </section>
     </section>
@@ -506,6 +562,7 @@
     </footer>
 
 
+    <script src="scripts/contact.js"></script>
     <script src="scripts/animations.js"></script>
     <script src="scripts/navbar.js"></script>
     <script src="scripts/journey.js"></script>
