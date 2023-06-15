@@ -3,6 +3,28 @@
 }
 
 
+#discount {
+    z-index: 20;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+
+#discount .banner {
+    width: 80%;
+    background-color: var(--red-tint);
+    transition: all 500ms ease-in-out 500ms;
+    backdrop-filter: blur(1px);
+    text-align: center;
+    border-radius: 0.5rem 0.5rem 0 0;
+    padding: 0.5rem;
+}
+
+
 /* DEV PAGE */
 #dev h1 {
     margin: 2vh 0;
@@ -246,6 +268,51 @@
 .highlight .button-div button {
     background-color: var(--banner-text);
     color: var(--purple);
+}
+
+
+/* Contact */
+
+
+#contact .heading {
+    margin-bottom: min(10vh, 10vw);
+}
+#contact .flex {
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: var(--gap, min(5vh, 10vw));
+}
+#contact span {
+    display: flex;
+    gap: var(--gap, min(3vh, 5vw));
+}
+
+
+#contact .flex span h4 {
+    align-self: center;
+}
+
+
+#contact i {
+    color: var(--purple);
+    font-size: 2rem;
+    align-self: center;
+}
+
+
+@media (max-width: 400px) {
+    #contact i {
+        font-size: 1.5rem;
+    }
+    #contact .flex span h4 {
+        font-size: 0.7rem;
+    }
+
+
+    #contact span {
+        --gap: 3vw;
+    }
 }
 
 
