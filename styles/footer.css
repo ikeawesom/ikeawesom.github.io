@@ -2,10 +2,12 @@
     margin: 0; padding: 0;
 }
 
+
 .footer-text {
     align-items: center;
     justify-content: center;
 }
+
 
 .primary-footer {
     z-index: 1000;
@@ -15,7 +17,9 @@
     height: 50vh;
     width: 100%;
     background: var(--footer-colour);
+    padding: 0 10vw;
 }
+
 
 .primary-footer i {
     color: var(--purple);
@@ -23,10 +27,12 @@
     font-weight: bolder;
 }
 
+
 .primary-footer .flex {
     gap: 4rem;
     width: 100%;
 }
+
 
 .primary-footer h4 {
     font-weight: 200;
@@ -36,16 +42,22 @@
     margin-left: var(--header-spacing);
 }
 
-.primary-footer p {
-    font-size: smaller;
-}
 
 .primary-footer p {
+    font-size: smaller;
     width: 100%;
     text-align: center;
 }
 
+
 .primary-footer .flex {
     align-items: center;
     justify-content: center;
+}
+
+
+@media (max-width:400px) {
+    .primary-footer p {
+        font-size: 0.7rem;
+    }
 }
