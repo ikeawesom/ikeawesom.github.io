@@ -188,6 +188,75 @@ input {
     transform: translateX(0) translateY(0);
 }
 
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
+
+/* DEV PAGE */
+#dev {
+    height: 100vh;
+    background: black;
+}
+
+.dev-container {
+    height: 100%;
+    place-items: center;
+}
+
+#dev h1 {
+    margin: 2vh 0;
+    padding: 0;
+    text-align: center;
+}
+
+#dev .flex {
+    gap: 10vw;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#dev .flex i {
+    cursor: default;
+    font-size: 5rem;
+    color: var(--purple);
+}
+
+
+#dev .flex .uil.uil-cog:nth-child(1) {
+    animation: spinA 3s infinite linear;
+}
+
+
+#dev .flex .uil.uil-cog:nth-child(2) {
+    animation: spinB 3s infinite linear;
+}
+
+
+@keyframes spinA {
+    from {
+        transform: rotate(0);
+    } to {
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes spinB {
+    from {
+        transform: rotate(0);
+    } to {
+        transform: rotate(-360deg);
+    }
+}
+
+/*  */
+
 
 @media (max-width:1000px) {
     #page-wrapper {

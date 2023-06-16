@@ -24,39 +24,6 @@
     padding: 0.5rem;
 }
 
-
-/* DEV PAGE */
-#dev h1 {
-    margin: 2vh 0;
-    padding: 0;
-    text-align: center;
-}
-#dev .flex {
-    gap: 10vw;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-}
-
-
-#dev .flex i {
-    cursor: default;
-    font-size: 5rem;
-    color: var(--purple);
-}
-
-
-#dev .flex .uil.uil-cog:nth-child(1) {
-    animation: spinA 3s infinite linear;
-}
-
-
-#dev .flex .uil.uil-cog:nth-child(2) {
-    animation: spinB 3s infinite linear;
-}
-/*  */
-
-
 /* MAIN */
 #page-wrapper {
     margin: 0 10vw;
@@ -564,23 +531,5 @@
 @media (max-width:400px) {
     .options-container > h2 {
         font-size: 1.6rem;
-    }
-}
-
-
-@keyframes spinA {
-    from {
-        transform: rotate(0);
-    } to {
-        transform: rotate(360deg);
-    }
-}
-
-
-@keyframes spinB {
-    from {
-        transform: rotate(0);
-    } to {
-        transform: rotate(-360deg);
     }
 }
