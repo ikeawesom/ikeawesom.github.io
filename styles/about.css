@@ -54,6 +54,11 @@
     line-height: var(--line-height);
 }
 
+.about-container a {
+    width: 100%;
+    transition: 0.3s;
+}
+
 .about-container button {
     width: 100%;
     border: none;
@@ -61,10 +66,9 @@
     background-color: var(--red-tint);
     font-size: 1rem;
     color: var(--banner-text);
-    transition: 0.3s;
 }
 
-.about-container button:hover {
+.about-container a:hover {
     filter: brightness(1.2);
 }
 
