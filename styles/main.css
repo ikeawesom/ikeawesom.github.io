@@ -5,7 +5,7 @@
     box-sizing: border-box;
     margin: 0;
     font-family: 'Roboto Mono', monospace;
-    /* border: 1px dotted red; */
+    /* border: 2px dotted red; */
 }
 
 :root {
@@ -107,12 +107,7 @@ p {
 
 i {
     font-size: var(--i-font-size);
-    cursor: pointer;
     transition: 0.3s;
-}
-
-i:hover {
-    opacity: 0.8;
 }
 
 a {

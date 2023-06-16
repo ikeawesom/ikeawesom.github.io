@@ -22,7 +22,6 @@
     <link rel="stylesheet" href="styles/fontawesome-min.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/projects/projects.css">
-    <link rel="stylesheet" href="styles/footer.css">
     <!--  -->
 
     <title>Project PassSafe | Ike Lim</title>
@@ -30,7 +29,7 @@
 </head>
 
 <body>
-    <section id="dev">
+    <!-- <section id="dev">
         <div class="grid dev-container">
             <div>
                 <h1 class="title">This page is still under development. Please try again later.</h1>
@@ -39,14 +38,27 @@
                 <i class="uil uil-cog"></i>
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <!-- <section id="splashscreen">
+    <div class="text-container">
+        <h2 class="header">Pass<span class="blue">Safe</span></h2>
+        <h4>A safekeeping for all your passwords</h4>
+    </div>
+    <section id="splashscreen">
         
         <div class="splashscreen-content flex">
-            <div class="text-container">
-                <h1>PassSafe</h1>
-                <h4>A safekeeping for all your passwords.</h4>
+            <div class="splashscreen-text">
+                <h1>Manage your <span class="blue">passwords</span>
+                offline safely.</h1>
+                <p>PassSafe is a simple, free and easy to use password manager that securely stores your passwords offline with fast and efficient retrieval.</p>
+                <div class="download flex">
+                    <a href="https://github.com/W-Appz/PassSafe/releases/latest">
+                        <img src="resources/projects/passSafe/publications/github.png" alt="Get APK From GitHub">
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.WAppz.PassSafe">
+                        <img src="resources/projects/passSafe/publications/googleplay.png" alt="Download from Play Store">
+                    </a>
+                </div>
             </div>
             <div class="image-container">
                 <img src="resources/projects/passSafe/phone.png" alt="">
@@ -55,34 +67,121 @@
     </section>
 
     <div id="page-wrapper">
+        <div class="benefits">
+            <h2 class="header">Why Pass<span class="blue">Safe</span>?</h2>
+            <p></p>
+            <ul>
+                <li class="highlight">
+                    <i class="uil uil-lock"></i>
+                    Secure 256-bit AES Encryption
+                    <p>Each database is initialized with a unique random salt in the first 16 bytes of the file. This salt is used for key derivation and it ensures that even if two databases are created using the same password, they will not have the same encryption key.</p>
+                </li>
+                <li>
+                    <i class="uil uil-wifi-slash"></i>
+                    Works Offline
+                    <p>Passwords are all stored locally on the drive to prevent online vulnerabilities.</p>
+                </li>
+                <li>
+                    <i class="uil uil-data-sharing"></i>
+                    No Data Collected
+                    <p>Your personal data will be safe and sound. We will not touch them.</p>
+                </li>
+                <li>
+                    <i class="uil uil-puzzle-piece"></i>
+                    Built-in Hashing System
+                    <p>No storing of plaintext passwords as they are securely hashed before.</p>                    
+                </li>
+                <li>
+                    <i class="uil uil-video-slash"></i>
+                    No Advertisements
+                    <p>No distractions. Only security.</p>
+                </li>
+                <li>
+                    <i class="uil uil-smile"></i>
+                    Simple Interface
+                    <p>Easy to access, even kids could use it.</p>
+                </li>
+            </ul>
+            <br>
+            <i><p>For screenshots and more information, visit the Git Repo <a target="_blank" href="https://github.com/W-Appz/PassSafe/">here</a>.</p></i>
+        </div>
 
-    </div> -->
+        
+    </div>
+
+    <div id="page-wrapper-grey">
+        <div class="video">
+            <h2>Start <span class="blue">Learning</span></h2>
+            <div class="video-container">
+                <iframe width="70% " height="500" src="https://www.youtube.com/embed/MIc3TZZdX4U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            </div>
+        </div>
+
+        <p class="caption"><span class="blue">PassSafe</span> is a personal project I worked on in September 2022, which was when I first started
+            learning Android app development. In this digital era where there are <span class="normal">vulnurabilities</span> in almost anything online,
+            it is crucial that one creates different secure passwords for the different platforms that they might be using. However, this leads to a
+            key problem - <span class="normal">remembering them</span>. I asked some people about this and many seemed to possess this issue as well.
+            Moreover, many password vaults out there are sometimes too much of a hassle to set up or contain too many features which may be difficult to
+            implement and understand. Hence, I decided to create my own <span class="normal">simple</span>, yet <span class="normal">secure password vault</span>
+            that anyone can comprehend and use safely.
+
+        </p>
+        <div class="download-container">
+            <h3>Get Started Today</h3>
+            <div class="download flex">
+                <a href="https://github.com/W-Appz/PassSafe/releases/latest">
+                    <img src="resources/projects/passSafe/publications/github.png" alt="Get APK From GitHub">
+                </a>
+                <a href="https://play.google.com/store/apps/details?id=com.WAppz.PassSafe">
+                    <img src="resources/projects/passSafe/publications/googleplay.png" alt="Download from Play Store">
+                </a>
+            </div>
+        </div>
+        
+    </div>
 
     <!-- Footer -->
-    <footer class="primary-footer flex">
-        <div class="footer-text flex">
-            <a href="#">
-                <h4>IKE LIM</h4>
-            </a>
+    <footer class="primary-footer">
+        <div class="footer-content flex">
+            <div class="footer-text">
+                <a href="#">
+                    <h2>Pass<span class="blue">Safe</span></h2>
+                </a>
+                <p>A safekeeping for all your passwords.</p>
+            </div>
+            <ul>
+                <h4>Quick Links</h4>
+                <li>
+                    <a href="https://ikeawesom.github.io/">
+                        Ike Lim
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/W-Appz/PassSafe/">
+                        Github
+                    </a>
+                </li>
+            </ul>
+            <div class="releases">
+                <h4>Releases</h4>
+                <ul>
+                    <li>
+                        <a href="https://github.com/W-Appz/PassSafe/releases/latest">
+                            Github APK
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://play.google.com/store/apps/details?id=com.WAppz.PassSafe">
+                            Play Store
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
         </div>
-        <ul class="flex">
-            <li>
-                <a href="https://instagram.com/ikeawesom">
-                    <i class="uil uil-instagram"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/ikeawesom">
-                    <i class="uil uil-github"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/ike-lim-633049250/">
-                    <i class="uil uil-linkedin"></i>
-                </a>
-            </li>
-        </ul>
-        <p>Copyright &copy; 2023 Ike Lim. All Rights Reserved.</p>
+        
+        
+        <p class="copy">Copyright &copy; 2023 PassSafe. All Rights Reserved.</p>
     </footer>
 
     <script src="scripts/animations.js"></script>

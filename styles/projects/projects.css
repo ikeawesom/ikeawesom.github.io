@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
 :root {
     --light-grey:#FBFBFB;
+    --darker-grey:#ebebeb7b;
+    --light-blue:#71d0ff;
+    --dark-colour:#344C59;
+    --dark-blue:#004a72;
+    --blue:#0094df;
+    --grey:#e2e2e2df;
 }
 
 body {
@@ -8,7 +16,362 @@ body {
     background-color: var(--light-grey);
 }
 
+i {
+    color: var(--dark-colour);
+}
+
+h1 {
+    font-size: var(--h1-font-size);
+}
+h2 {
+    font-size: var(--h2-font-size);
+}
+h3 {
+    font-size: var(--h3-font-size);
+}
+h4 {
+    font-size: var(--h4-font-size);  
+}
+
+#page-wrapper {
+    margin: 5vh 10vw;
+    /* background-color: red; */
+}
+
 #splashscreen {
     width: 100%;
-    height: 100vh;
+    min-height: 20vh;
+    padding: 2rem 5vw;
+}
+
+
+h1,h2,h3,h4, .blue {
+    font-family: 'Oswald', sans-serif;
+    color: var(--dark-colour);
+}
+
+#splashscreen .header {
+    font-size: 6rem;
+}
+
+#splashscreen h4 {
+    font-size: 1.5rem;
+    color: var(--dark-blue);
+}
+
+h4, p, a, .normal {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+    font-size: var(--p-font-size);
+}
+
+a {
+    color: var(--blue);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.splashscreen-content {
+    border-radius: 1rem;
+    background: linear-gradient(to bottom right, var(--light-blue), var(--blue));
+    padding: 2rem;
+    height: inherit;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.text-container {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.text-container h4 {
+    padding: 0 2rem;
+}
+.blue, .normal {
+    color: var(--blue);
+}
+
+
+.splashscreen-content * {
+    color: var(--light-grey);
+}
+
+.splashscreen-content p {
+    margin: min(1rem,2vw) 0;
+}
+
+.download {
+    gap: min(1rem,2vw);
+}
+
+.download a {
+    margin: min(1rem,2vw) 0;
+    width: 40%;
+    transition: 0.3s;
+}
+
+.download a:hover {
+    filter: brightness(1.3);
+}
+
+.download a img {
+    width: 100%;
+    border-radius: 0.6rem;
+    box-shadow: 0 0 10px 0 var(--box-shadow-black);
+
+}
+
+.splashscreen-text {
+    width: 50%;
+}
+
+.image-container {
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.image-container img {
+    height: 100%;
+    
+}
+
+/* Benefits */
+.benefits h2 {
+    margin-bottom: 3vh;
+    width: 100%;
+    text-align: center;
+}
+
+.benefits ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3rem;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.benefits li {
+    font-family: 'Oswald', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    padding: 1rem;
+    gap: 2vh;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+}
+
+.benefits li.highlight {
+    width: 100%;
+}
+
+.benefits li p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.3rem;
+}
+
+.benefits p {
+    color: var(--dark-grey);
+}
+
+.benefits li i {
+    background-color: var(--light-blue);
+    padding: 1rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--light-grey);
+    box-shadow: 0 0 7px 0 var(--box-shadow-black);
+}
+
+
+/* Video */
+
+#page-wrapper-grey {
+    background-color: var(--darker-grey);
+    padding: 10vh 10vw;;
+    margin-top: 10vh;
+}
+
+
+.video h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5vh;
+}
+
+.video-container {
+    display: grid;
+    place-items: center;
+}
+
+.video-container iframe {
+    box-shadow: 20px 10px 40px 10px var(--box-shadow-black);
+    margin-bottom: 5vh;
+}
+
+.caption {
+    color: var(--dark-colour);
+    margin: 5vh 0;
+}
+
+.download-container {
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.download-container h3 {
+    margin: 3vh;
+}
+
+.download-container .download {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.download-container .download a {
+    width: 15rem;
+}
+
+
+/* Footer */
+
+.primary-footer {
+    min-height: 40vh;
+    padding: 5vh 20vw;
+    background-color: var(--dark-blue);
+}
+
+.footer-text {
+    margin-right: 5vw;
+    margin-bottom: 5vh;
+}
+
+.footer-content {
+    height: 90%;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-content h2,
+.footer-content h4,
+.footer-content a,
+.copy {
+    color: var(--light-grey);
+}
+
+.footer-content h4 {
+    opacity: 0.4;
+}
+
+.footer-content ul a {
+    text-decoration: none;
+    opacity: 0.2;
+}
+
+.footer-content li {
+    margin: 1rem 0;
+}
+
+.copy {
+    margin: 5vh 0;
+    width: 100%;
+    text-align: center;
+}
+
+
+@media (max-width:676px) {
+    .download-container .download a {
+        width: 9rem;
+    }
+}
+
+@media (max-width:415px) {
+
+   .download {
+        display: block;
+        height: 100%;
+    }
+
+    .download a {
+        margin: 5vh 0;
+    }
+
+}
+
+
+@media (max-width:600px) {
+    .caption {
+        font-size: 0.8em;
+        line-height: 1.2rem;
+    }
+}
+
+
+@media (max-width:787px) {
+    .benefits li {
+        width: 100%;
+    }
+}
+
+@media (max-width:868px) {
+    .image-container {
+        display: none;
+    }
+    .splashscreen-text {
+        width: 80%;
+    }
+
+    .download a {
+        width: 100%;
+    }
+
+    .splashscreen-content {
+        background: linear-gradient(to bottom right, rgba(0, 0, 0, 0.6), rgba(0,0,0,0.8)), url('../../resources/projects/passSafe/project.png');
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+
+@media (max-width:600px) {
+    .splashscreen-content h1,
+    .primary-footer h2 {
+        font-size: 2.6rem;
+    }
+    .primary-footer {
+        padding: 5vh 10vw;
+    }
+    .copy {
+        font-size: 0.8rem;
+        line-height: 1.3rem;
+    }
+}
+
+@media (max-width:600px) {
+    .splashscreen-content h1 {
+        font-size: 2.2rem;
+    }
+    .splashscreen-content p {
+        font-size: 0.7rem;
+        line-height: 1.2rem;
+    }
 }
