@@ -14,6 +14,15 @@
     --darker-light-colour:#a4a5b6;
     --font-colour:#282534;
     --p-colour:#6a6a7f;
+    --outline:#e5e7ff5f;
+    --box-shadow-darker: #00000071;
+    
+    /* palette */
+    --denim:rgb(0, 0, 70);
+    --shadow:rgb(70, 70, 89);
+    --spruce:rgb(84, 84, 137);
+    --lapis:rgb(75, 75, 223);
+    --heather:rgb(193, 183, 255);
 }
 
 body {
@@ -104,10 +113,11 @@ hr {
     height: 100%;
     width: 100%;
     place-items: center;
-    background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.7),rgba(0,0,0,0.8),rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url('../../resources/projects/mademoiselle.png');
+    background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.6),rgba(0,0,0,0.7),rgba(0,0,0,0.8),rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url('../../resources/projects/angel/baking1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    background-clip: border-box;
 }
 
 
@@ -226,15 +236,102 @@ hr {
     }
 
     .about-content .images {
+        margin-top: 3vh;
         grid-template-columns: repeat(10,1fr);
         width: 100%;
     }
     .about-content .images img {
-        height: 40vw;
+        height: 60vw;
     }
 
     .about-content {
         justify-content: center;
         gap: 7vw;
     }
+}
+
+/* Palette */
+.palette-container {
+    margin: 10vh 0;
+    /* border: 2px dotted green; */
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    gap: 3vw;
+    flex-wrap: wrap;
+}
+
+.palette-container .palette-item {
+    width: 8rem;
+    aspect-ratio: 1;
+    /* border: 1px solid red; */
+}
+
+.palette-container .palette-circle {
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    box-shadow: 0 5px 20px 0 var(--box-shadow-black);
+}
+
+.palette-container .palette-circle:hover {
+    box-shadow: 5px 10px 30px 0 var(--box-shadow-darker);
+}
+
+.palette-container .palette-text p {
+    transition: 0.3s;
+}
+
+.palette-container .palette-circle:hover + .palette-text p {
+    color: var(--red-tint);
+}
+
+.palette-container .palette-text {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.palette-container .palette-item:nth-child(1) .palette-circle {
+    background-color: var(--denim);
+}
+
+.palette-container .palette-item:nth-child(2) .palette-circle {
+    background-color: var(--shadow);
+}
+
+.palette-container .palette-item:nth-child(3) .palette-circle {
+    background-color: var(--spruce);
+}
+
+.palette-container .palette-item:nth-child(4) .palette-circle {
+    background-color: var(--lapis);
+}
+
+.palette-container .palette-item:nth-child(5) .palette-circle {
+    background-color: var(--heather);
+}
+
+@media (max-width:500px) {
+    .palette-container .palette-item {
+        width: 30vw;
+    }
+}
+
+
+/* Dashboard */
+
+.dashboard-container .image-container {
+    margin: 5vh 0;
+    align-items: center;
+    justify-content: center;
+    transition: 0.4s;
+}
+
+.dashboard-container .image-container:hover {
+    scale: 1.01;
+}
+
+.dashboard-container img {
+    width: 80%;
 }
