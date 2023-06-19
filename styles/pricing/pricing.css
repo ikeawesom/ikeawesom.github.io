@@ -637,6 +637,11 @@
     .options-tab .options-price h2 {
         font-size: 2.8rem;
     }
+
+    .disclaimer {
+        text-align: center;
+    }
+
 }
 
 
