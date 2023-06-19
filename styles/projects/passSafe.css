@@ -349,6 +349,16 @@ ul {
 }
 
 
+@media (max-width:880px) {
+    #next-project h1 {
+        font-size: 5vw;
+    }
+
+
+    #next-project h4 {
+        font-size: 3vw;
+    }
+}
 #next-project a:hover {
     background-color: var(--denim);
 }
@@ -512,4 +522,3 @@ ul {
         line-height: 1.2rem;
     }
 }
-
