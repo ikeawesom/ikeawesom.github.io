@@ -19,6 +19,11 @@
 .services-container .services-tab i {
     font-size: var(--h1-font-size-ss);
     color: var(--banner-text);
+    cursor: pointer;
+}
+
+.services-container .services-tab i:hover {
+    transform: translateX(10%) translateY(10%);
 }
 
 .icon {
