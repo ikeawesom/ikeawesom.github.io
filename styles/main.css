@@ -15,6 +15,7 @@
     --theme-color:rgb(5, 0, 31);
     --dark-blue:rgb(2, 0, 14);
     --purple:#9244ff;
+    --purple-tint:#9244ffc7;
     --purple-hover:#c79fff;
     --red:#ff2e2e;
     --green: rgb(0, 128, 2);
@@ -309,7 +310,7 @@ input {
 
 @media (max-width:380px) {
     #page-wrapper {
-        --wrapper: 2rem;
+        --wrapper: 8vw;
     }
 }
 
