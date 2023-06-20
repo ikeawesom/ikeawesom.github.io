@@ -308,7 +308,7 @@ input {
 }
 
 
-@media (max-width:380px) {
+@media (max-width:600px) {
     #page-wrapper {
         --wrapper: 8vw;
     }
