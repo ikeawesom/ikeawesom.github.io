@@ -24,6 +24,8 @@
     <!-- Other CSS files -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <!--  -->
 
 
@@ -694,12 +696,6 @@
             </h1>
 
 
-
-
-
-
-
-
             <h2 class="comment scroll-hidden top noanim">// latest works</h1>
            
             <div class="portfolio-container highlights flex">
@@ -745,98 +741,126 @@
 
 
 
+            <div class="portfolio-container-1">
+                <h2 class="comment scroll-hidden top noanim">// software</h1>
 
 
-
-
-            <h2 class="comment scroll-hidden top noanim">// more projects</h1>
-
-
-
-
-
-
-
-
-            <div class="portfolio-container-1 flex">
-                <div class="portfolio-item scroll-hidden bottom">
-                    <div class="image">
-                        <img src="./resources/projects/zombie.png" alt="Zombie Game">
+                    <!-- Software Slides -->
+                    <div class="splide scroll-hidden top noanim" id="software-carou" aria-label="software-projects">
+                        <div class="splide__track">
+                              <ul class="splide__list">
+                                  <li class="splide__slide">
+                                    <div class="portfolio-item">
+                                        <div class="image">
+                                            <img src="./resources/projects/zombie.png" alt="Zombie Game">
+                                        </div>
+                                        <div class="text">
+                                            <h3>Zombie Game</h3>
+                                            <p>Built with Unity and C#</p>
+                                        </div>
+                                    </div>
+                                  </li>
+                                  <li class="splide__slide">
+                                    <div class="portfolio-item">
+                                        <div class="image">
+                                            <img src="./resources/projects/econs.png" alt="Economics Manager">
+                                        </div>
+                                        <div class="text">
+                                            <h3>Economics Manager</h3>
+                                            <p>Software engineering with Python</p>
+                                        </div>
+                                    </div>
+                                  </li>
+                                  <li class="splide__slide">
+                                    <div class="portfolio-item">
+                                        <div class="image">
+                                            <img src="./resources/projects/hog.png" alt="Clash Royale">
+                                        </div>
+                                        <div class="text">
+                                            <h3>Clash Royale</h3>
+                                            <p>Frontend Development with HTML, CSS and Vanilla JS</p>
+                                        </div>
+                                    </div>
+                                  </li>
+                              </ul>
+                        </div>
                     </div>
-                    <div class="text">
-                        <h3>Zombie Game</h3>
-                        <p>Built with Unity and C#</p>
+       
+                    <h2 class="comment scroll-hidden top noanim">// video editing</h1>
+       
+                    <!-- Video Slides -->
+                    <div class="splide scroll-hidden top noanim" id="video-carou" aria-label="video-projects">
+                        <div class="splide__track">
+                            <ul class="splide__list">
+                                <li class="splide__slide">
+                                    <div class="portfolio-item">
+                                        <div class="image">
+                                            <img src="./resources/projects/vid1.jpg" alt="Social Media">
+                                        </div>
+                                        <div class="text">
+                                            <h3>Social Media</h3>
+                                            <p>Video Editing using Adobe Premier Pro</p>
+                                        </div>
+                                    </div>  
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="portfolio-item">
+                                        <div class="image">
+                                            <img src="./resources/projects/vid2.jpg" alt="Privacy">
+                                        </div>
+                                        <div class="text">
+                                            <h3>Privacy</h3>
+                                            <p>Video Editing using Adobe Premier Pro and Photoshop</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="splide__slide">
+                                    <div class="portfolio-item">
+                                        <div class="image">
+                                            <img src="./resources/projects/vid3.png" alt="Chemistry">
+                                        </div>
+                                        <div class="text">
+                                            <h3>Chemistry Project</h3>
+                                            <p>Video Editing focusing on Camtasia Studio and Audacity</p>
+                                        </div>
+                                    </div>  
+                   
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="portfolio-item scroll-hidden bottom">
-                    <div class="image">
-                        <img src="./resources/projects/econs.png" alt="Economics Manager">
-                    </div>
-                    <div class="text">
-                        <h3>Economics Manager</h3>
-                        <p>Software engineering with Python</p>
-                    </div>
-                </div>
-                <div class="portfolio-item scroll-hidden bottom">
-                    <div class="image">
-                        <img src="./resources/projects/hog.png" alt="Clash Royale">
-                    </div>
-                    <div class="text">
-                        <h3>Clash Royale</h3>
-                        <p>Frontend Development with HTML, CSS and Vanilla JS</p>
-                    </div>
-                </div>  
+       
+                    <script>
 
 
+                        var settings = {
+                            type       : 'loop',
+                            height     : '80vh',
+                            flickPower: number = 600,
+                            speed: 800,
+                            gap: '5vw',
+                            breakpoints: {
+                                    640: {
+                                        height: '82vh',
+                                    },
+                            }
+                        }
 
 
-                <div class="portfolio-item scroll-hidden bottom">
-                    <div class="image">
-                        <img src="./resources/projects/vid1.jpg" alt="Social Media">
-                    </div>
-                    <div class="text">
-                        <h3>Social Media</h3>
-                        <p>Video Editing using Adobe Premier Pro</p>
-                    </div>
-                </div>  
+                        document.addEventListener( 'DOMContentLoaded', function() {
+                            var splide = new Splide( '#software-carou', settings);
+                            splide.mount();
+                        } );
 
 
+                        document.addEventListener( 'DOMContentLoaded', function() {
+                            var splideA = new Splide( '#video-carou',settings);
+                            splideA.mount();
+                        } );
 
 
-                <div class="portfolio-item scroll-hidden bottom">
-                    <div class="image">
-                        <img src="./resources/projects/vid2.jpg" alt="Privacy">
-                    </div>
-                    <div class="text">
-                        <h3>Privacy</h3>
-                        <p>Video Editing using Adobe Premier Pro and Photoshop</p>
-                    </div>
-                </div>  
-
-
-
-
-                <div class="portfolio-item scroll-hidden bottom">
-                    <div class="image">
-                        <img src="./resources/projects/vid3.png" alt="Chemistry">
-                    </div>
-                    <div class="text">
-                        <h3>Chemistry Project</h3>
-                        <p>Video Editing focusing on Camtasia Studio and Audacity</p>
-                    </div>
-                </div>  
-
-
-
-
-               
-               
+                    </script>
             </div>
-
-
-
-
-               
            
         </section>
 
