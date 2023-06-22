@@ -692,3 +692,9 @@
         font-size: 1.6rem;
     }
 }
+
+@media (max-width:600px) {
+     #page-wrapper {
+        margin: 0 5vw
+     }
+}
