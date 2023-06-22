@@ -502,6 +502,17 @@
     .contact-container {
         flex-direction: column-reverse;
     }
+
+    .contact-details {
+        width: 100%;
+        margin: 0;
+    }
+
+    .contact-details span {
+        align-self: center;
+        justify-content: center;;
+    }
+    
     .contact-container form {
         width: 100%;
     }
