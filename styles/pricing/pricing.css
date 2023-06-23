@@ -138,12 +138,13 @@
 .options-box-container {
     align-items: flex-start;
     justify-content: space-between;
+    gap: 20px;
     flex-wrap: wrap;
 }
 
     .option-box {
         transition: 0.3s;
-        border-radius: 10px;
+        border-radius: 8px;
         border: 3px solid var(--grey-border-2);
         background: var(--options-default);
         backdrop-filter: blur(3px);
@@ -288,7 +289,7 @@
     }
 
     .option-box button {
-        width: 30%;
+        width: 40%;
     }
 
     .option-box .book p {
