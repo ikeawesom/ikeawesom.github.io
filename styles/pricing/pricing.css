@@ -126,6 +126,30 @@
     }
 }
 
+.basic-gradient {
+    background: linear-gradient(90deg, #82c91e 5%, #3bc9db 95%);
+    font-weight: 900;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.premium-gradient {
+    background: linear-gradient(90deg, #ffd43b 4%, #ff7650 51%, #ff0059 95%);
+    font-weight: 900;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.pro-gradient {
+    background: linear-gradient(90deg, #7950f2 16%, #f783ac 53%);;
+    font-weight: 900;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 
     .options-container .options-heading h4 {
         margin-top: 0.6rem;
@@ -254,9 +278,10 @@
     .option-box .book p {
         text-align: center;
         font-size: 0.8rem;
-        text-decoration:underline;
-        width: 100%;
+        width: fit-content;
         font-size: var(--p-font-size);
+        border-bottom: 2px dotted var(--banner-text);
+        padding-bottom: 2px;
     }
 
     .option-box button {
@@ -276,6 +301,8 @@
 
     .option-box button:hover {
         filter: brightness(1.2);
+        transform: translateY(5%);
+
     }
 
     .option-box .links {
