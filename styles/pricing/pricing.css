@@ -329,6 +329,10 @@
         width: 100%;
     }
 
+    .option-box .book p {
+        text-align: center;
+    }
+
     .option-box {
         padding: min(8vw,2rem);
     }
