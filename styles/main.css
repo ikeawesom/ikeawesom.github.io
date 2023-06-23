@@ -15,13 +15,14 @@
     --theme-color:rgb(5, 0, 31);
     --dark-blue:rgb(2, 0, 14);
     --purple:#9244ff;
+    --dark-purple:#290062;
     --purple-tint:#9244ffc7;
     --purple-hover:#c79fff;
     --red:#ff2e2e;
     --green: rgb(0, 128, 2);
     --yellow:#fff54d;
-    --banner-text:#e8e6ff;
-    --grey:rgb(179, 179, 179);
+    --banner-text:#d6d3ee;
+    --grey:rgb(208, 208, 208);
     --dark-grey:rgb(58, 58, 58);
     --blue-ball:#4fc3dc;
     --red-ball:#ff2d75;
@@ -31,6 +32,7 @@
     --footer-colour: rgba(246, 243, 255,1);
     --box-shadow-black:rgba(28, 28, 28, 0.3);
     --grey-border: rgba(255, 255, 255, 0.327);
+    --grey-border-2:#dadada24;
     --black-backdrop: rgba(2, 0, 14, 0.3);
 
 
