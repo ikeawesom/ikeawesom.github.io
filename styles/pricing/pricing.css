@@ -330,7 +330,15 @@
     }
 
     .option-box .book p {
+        width: 100%;
         text-align: center;
+        text-decoration: underline;
+        border: none;
+    }
+
+    .options-box li {
+        margin: 8px 0;
+        font-size: var(--p-font-size-s);
     }
 
     .option-box {
