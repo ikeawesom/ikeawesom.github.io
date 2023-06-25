@@ -802,6 +802,32 @@
 
 
 
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDkm8RMGxIYzmxq94KhCLWyN95thVpJs4g",
+    authDomain: "ike-lim-website.firebaseapp.com",
+    projectId: "ike-lim-website",
+    storageBucket: "ike-lim-website.appspot.com",
+    messagingSenderId: "817715312989",
+    appId: "1:817715312989:web:8b4ba4e58b77b570c2d0b4",
+    measurementId: "G-1X9R8CHVVD"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+
+
 
     <script src="scripts/contact.js"></script>
     <script src="scripts/animations.js"></script>
