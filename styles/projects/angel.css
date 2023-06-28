@@ -39,7 +39,7 @@ body {
 }
 
 
-h1,h2,h3,h4 {
+h1:not(.title),h2,h3,h4,h4 {
     color: var(--font-colour);
     letter-spacing: 0.15rem;
 }
