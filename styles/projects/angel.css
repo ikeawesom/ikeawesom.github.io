@@ -11,9 +11,9 @@
 
 
 :root {
-    --theme-colour: rgb(78, 90, 224);
+    --theme-colour: rgb(117, 128, 248);
     --light-colour: #e5e7ff;
-    --darker-light-colour:#a4a5b6;
+    --darker-light-colour:#c9c9d3;
     --font-colour:#282534;
     --p-colour:#6a6a7f;
     --outline:#e5e7ff5f;
@@ -45,16 +45,34 @@ h1,h2,h3,h4,h4 {
 }
 
 
-.theme {
-    color: var(--theme-colour);
-    font-weight: bolder;
-}
-
-
 p {
     color: var(--p-colour);
     font-weight: 500;
     letter-spacing: 0.07rem;
+    font-size: var(--p-font-size);
+    line-height: 180%;
+}
+
+
+h1 {
+    font-size: var(--h1-font-size);
+}
+
+
+h4 {
+    font-size: var(--h4-font-size);
+    font-weight: 200;
+}
+
+@media (max-width:500px) {
+    h1 {
+        font-size: 10vw;
+    }
+
+    h4,p {
+        font-size: 4vw;
+    }
+    
 }
 
 
@@ -71,7 +89,7 @@ p {
 
 
 #splashscreen {
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     /* border: 2px dotted red; */
 }
@@ -149,10 +167,32 @@ hr {
 }
 
 
+.roles {
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0 10vw;
+    transition: 600ms ease-in-out 300ms;
+    gap: 10px;
+}
+
+.roles p {
+    font-weight: 600;
+}
+
+
+
+.theme {
+    color: var(--theme-colour);
+    font-weight: bolder;
+}
+
+
 
 
 .desc {
-    background: linear-gradient(to bottom, rgba(0,0,0,0.9),rgba(0,0,0,0.9),rgba(0,0,0,1),rgba(0,0,0,1),rgba(0,0,0,1),rgba(0,0,0,1),rgba(0,0,0,1));
+    background: linear-gradient(to bottom, rgb(0, 8, 96), rgb(5, 13, 104),rgb(23, 31, 110),rgb(30, 36, 106),rgb(31, 36, 91));
     place-items: center;
     padding-bottom: 5vh;
 }
@@ -172,6 +212,7 @@ hr {
 
 
 .desc-content p {
+    margin-top: 3vh;
     color: var(--darker-light-colour);
 }
 
