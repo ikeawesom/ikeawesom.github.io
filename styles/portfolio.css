@@ -31,7 +31,7 @@ portfolio.css
     justify-content: start;
     gap: 1vw;
     transition: 0.2s;
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1.3px solid rgba(255, 255, 255, 0.2);
     filter: brightness(0.8);
 }
 
