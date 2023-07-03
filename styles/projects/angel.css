@@ -87,6 +87,11 @@ h4 {
     }
 }
 
+@media (max-width:300px) {
+    #page-wrapper {
+        margin: 5vh 8vw;
+    }
+}
 
 #splashscreen {
     height: 100vh;
