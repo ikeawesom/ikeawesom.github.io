@@ -1,4 +1,6 @@
-![Ike Lim](resources/misc/icon.png | width=100)
+<a href="ikeawesom.github.io">
+  <img src="resources/misc/icon.png" width="100" height="100" />
+</a>
 
 # Ike Lim | Junior Software Developer & Web Developer
 
@@ -12,7 +14,9 @@ Being a versatile developer, I am driven to make impactful contributions in the 
 <a href="https://linkedin.com/in/ike-lim">
   <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="26" height="26"/>
 </a>
-[![Instagram](https://cdn-icons-png.flaticon.com/512/1409/1409946.png)](https://instagram.com/ikeawesom | width=26)
+<a href="https://instagram.com/ikeawesom">
+  <img src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png" width="26" height="26"/>
+</a>
 
 ## Content
 - About Me
