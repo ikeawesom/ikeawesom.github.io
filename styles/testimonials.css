@@ -1,3 +1,7 @@
+#testimonials h1 {
+    font-size: var(--h1-font-size);
+}
+
 .testimonials-row {
 
     width: 100%;
@@ -119,51 +123,8 @@
 @media (max-width:830px) {
 
     #testimonials .title {
-
-        font-size: 2.7rem;
-
+        font-size: 6.5vw
     }
-
-}
-
-@media (max-width:660px) {
-
-    #testimonials .title {
-
-        font-size: 2rem;
-
-    }
-
-}
-
-@media (max-width:500px) {
-
-    #testimonials .title {
-
-        font-size: 1.4rem;
-
-    }
-
-}
-
-@media (max-width:350px) {
-
-    #testimonials .title {
-
-        font-size: 1.3rem;
-
-    }
-
-}
-
-@media (max-width:310px) {
-
-    #testimonials .title {
-
-        font-size: 1rem;
-
-    }
-
 }
 
 @media (max-width:1000px) {

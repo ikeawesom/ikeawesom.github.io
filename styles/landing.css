@@ -65,6 +65,35 @@
         margin-top: 0.5rem;
     }
 
+    #landing h1 {
+        font-size: var(--h1-font-size);
+    }
+
+    #landing p {
+        font-size: var(--p-font-size);
+        line-height: 150%;
+    }
+
+    @media (max-width:460px) {
+        #landing h1 {
+            font-size: 13vw;
+        }
+
+        #landing p {
+            font-size: var(--p-font-size-s);
+        }
+    }
+
+    @media (max-width:320px) {
+        #landing h1 {
+            line-height: 150%;
+        }
+        #landing p {
+            font-size: var(--p-font-size-ss);
+            line-height: 180%;
+        }
+    }
+    
 @keyframes appear {
     from {
         opacity: 0;

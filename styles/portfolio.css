@@ -1,4 +1,20 @@
-portfolio.css
+#portfolio > h1 {
+    font-size: var(--h1-font-size);
+}
+
+@media (max-width:710px) {
+    #portfolio > h1 {
+        font-size: 8vw;
+    }
+}
+
+@media (max-width:510px) {
+    #portfolio .comment {
+        font-size: 7vw;
+    }
+}
+
+
 .portfolio-container {
     width: 100%;
     cursor: default;
