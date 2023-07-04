@@ -1,46 +1,33 @@
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-
-
-
-
-
-
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-    <link rel="icon" href="resources/misc/icon.png">
-
+    <link rel="icon" href="resources/misc/icon.png" />
 
     <!-- Other CSS files -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
     <!--  -->
-
 
     <!-- Main CSS files -->
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/projects/econs.css">
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/projects/econs.css" />
     <!--  -->
 
-
     <title>Economics Manager | Ike Lim</title>
+  </head>
 
-
-</head>
-
-
-<body>
-    <section id="dev">
+  <body>
+    <!-- <section id="dev">
         <div class="grid dev-container">
             <div>
                 <h1 class="title">This page is still under development. Please try again later.</h1>
@@ -49,20 +36,17 @@
                 <i class="uil uil-cog"></i>
             </div>
         </div>
-    </section>
+    </section> -->
 
-
-    <!-- <section id="splashscreen">
-       
-        <div class="splashscreen-content grid">
-            <div class="heading scroll-hidden top">
-                <h1>Project Mademoiselle Angel</h1>
-                <i><h4>Full Stack E-Commerce Platform</h4></i>
-            </div>
+    <section id="splashscreen">
+      <div class="splashscreen-content grid">
+        <div class="heading scroll-hidden top">
+          <h1>Economics Manager</h1>
+          <i><h4>Customized Automation Software</h4></i>
         </div>
-       
+      </div>
     </section>
-
+    <!-- 
 
     <div class="desc grid">
         <div class="desc-content">
@@ -196,48 +180,41 @@
 
     </div> -->
 
-
     <div id="next-project">
-
-
-        <a class="text-content grid" href="/passsafe">
-            <div class="text">
-                <h4 class="scroll-hidden top noanim">Check out</h4>
-                <h1 class="scroll-hidden top noanim">Pass<span class="light-blue">Safe</span></h1>
-            </div>
-        </a>
-       
+      <a class="text-content grid" href="/passsafe">
+        <div class="text">
+          <h4 class="scroll-hidden top noanim">Check out</h4>
+          <h1 class="scroll-hidden top noanim">
+            Pass<span class="light-blue">Safe</span>
+          </h1>
+        </div>
+      </a>
     </div>
-   
 
     <script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
 
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyDkm8RMGxIYzmxq94KhCLWyN95thVpJs4g",
-    authDomain: "ike-lim-website.firebaseapp.com",
-    projectId: "ike-lim-website",
-    storageBucket: "ike-lim-website.appspot.com",
-    messagingSenderId: "817715312989",
-    appId: "1:817715312989:web:8b4ba4e58b77b570c2d0b4",
-    measurementId: "G-1X9R8CHVVD"
-  };
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyDkm8RMGxIYzmxq94KhCLWyN95thVpJs4g",
+        authDomain: "ike-lim-website.firebaseapp.com",
+        projectId: "ike-lim-website",
+        storageBucket: "ike-lim-website.appspot.com",
+        messagingSenderId: "817715312989",
+        appId: "1:817715312989:web:8b4ba4e58b77b570c2d0b4",
+        measurementId: "G-1X9R8CHVVD",
+      };
 
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
-
-
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
 
     <script src="scripts/animations.js"></script>
-</body>
-
-
+  </body>
 </html>

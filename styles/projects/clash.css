@@ -11,8 +11,8 @@
 
 
 :root {
-    --theme-colour: #00C445;
-    --light-colour: #e5ffee;
+    --theme-colour: #bea90a;
+    --light-colour: #fffce9;
     --darker-light-colour:#d3d3d3;
     --font-colour:#282534;
     --p-colour:#6a6a7f;
@@ -206,7 +206,7 @@ hr {
 
 
 .desc {
-    background: linear-gradient(to bottom, rgba(0, 153, 64, 0.9),rgba(0, 153, 64,0.9),rgba(0, 153, 64,1),rgba(0, 153, 64,1),rgba(0, 153, 64,1),rgba(0, 153, 64,1),rgba(0, 153, 64,1));
+    background: linear-gradient(to bottom, #a89610,#958507);
     place-items: center;
     padding-bottom: 5vh;
 }
