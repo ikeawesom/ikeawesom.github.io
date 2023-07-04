@@ -55,6 +55,9 @@
     justify-content: center;
 }
 
+.primary-footer li {
+    color: var(--purple);
+}
 
 @media (max-width:400px) {
     .primary-footer p {
