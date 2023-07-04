@@ -1,4 +1,4 @@
-![Ike Lim](resources/projects/site.png)
+![Ike Lim](resources/misc/icon.png)
 
 # Ike Lim | Junior Software Developer & Web Developer
 
@@ -9,8 +9,8 @@ Additionally, I have integrated payment gateways, including Stripe, to facilitat
 Being a versatile developer, I am driven to make impactful contributions in the field.
 
 ## Links
-[LinkedIn](https://linkedin.com/in/ike-lim)
-[Instagram](https://instagram.com/ikeawesom)
+[![LinkedIn](https://linkedin.com/in/ike-lim)](https://cdn-icons-png.flaticon.com/512/174/174857.png)
+[![Instagram](https://instagram.com/ikeawesom)](https://cdn-icons-png.flaticon.com/512/1409/1409946.png)
 
 ## Content
 - About Me
