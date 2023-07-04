@@ -1,4 +1,4 @@
-<a href="ikeawesom.github.io">
+<a href="https://ikeawesom.github.io">
   <img src="resources/misc/icon.png" width="100" height="100" />
 </a>
 
