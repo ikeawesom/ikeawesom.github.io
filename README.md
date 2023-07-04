@@ -1,3 +1,5 @@
+![Ike Lim](resources/projects/site.png)
+
 # Ike Lim | Junior Software Developer & Web Developer
 
 As a passionate freelance software and web developer with five years of experience, I possess proficiency in Python, C++, Java, HTML, CSS and JavaScript. I have successfully completed projects ranging from personal websites to full-stack e-commerce platforms. With expertise in frameworks such as ExpressJS and Flask coupled with designing tools like Figma and Photoshop, I am adept at developing visually appealing and responsive full stack services. 
@@ -7,7 +9,8 @@ Additionally, I have integrated payment gateways, including Stripe, to facilitat
 Being a versatile developer, I am driven to make impactful contributions in the field.
 
 ## Links
-[LinkedIn](https://linkedin.com/in/ike-lim) [Instagram](https://instagram.com/ikeawesom)
+[LinkedIn](https://linkedin.com/in/ike-lim)
+[Instagram](https://instagram.com/ikeawesom)
 
 ## Content
 - About Me
