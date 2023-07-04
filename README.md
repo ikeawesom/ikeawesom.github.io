@@ -9,7 +9,7 @@ Additionally, I have integrated payment gateways, including Stripe, to facilitat
 Being a versatile developer, I am driven to make impactful contributions in the field.
 
 ## Links
-[![LinkedIn](https://cdn-icons-png.flaticon.com/512/174/174857.png)](https://linkedin.com/in/ike-lim | width=26)
+<img src="(https://linkedin.com/in/ike-lim" data-canonical-src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="26" height="26" />
 [![Instagram](https://cdn-icons-png.flaticon.com/512/1409/1409946.png)](https://instagram.com/ikeawesom | width=26)
 
 ## Content
