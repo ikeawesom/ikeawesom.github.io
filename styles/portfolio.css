@@ -36,18 +36,18 @@
 }
 
 .portfolio-container-1 .portfolio-item {   
-    width: 90%;
-    height: min(80vh,40vw);
-    margin: min(5vh, 15vw) 0;
+    width: 95%;
+    /* height: min(80vh,40vw); */
+    margin: min(5vh, 12vw) 0;
     border-radius: 0.4rem;
-    overflow: hidden;
-    background: var(--black-backdrop);
-    backdrop-filter: blur(2px);
+    /* overflow: hidden; */
+    /* background: var(--black-backdrop);
+    backdrop-filter: blur(2px); */
     align-items: center;
     justify-content: start;
     gap: 1vw;
     transition: 0.2s;
-    border: 1.3px solid rgba(255, 255, 255, 0.2);
+    /* border: 1.3px solid rgba(255, 255, 255, 0.2); */
     filter: brightness(0.8);
 }
 
@@ -74,11 +74,6 @@
 @media (max-width:1000px) {
     .portfolio-container-1 .portfolio-item {
         filter: brightness(1);
-        
-    }
-
-    .portfolio-container-1 .portfolio-item:hover {
-        box-shadow: 0 0 20px 0 var(--purple-tint);
     }
 }
 
@@ -99,7 +94,6 @@
     color: var(--purple-tint);
     font-size: smaller;
     transition: 0.3s;
-    /* filter: brightness(1.5); */
     font-weight: 600;
 }
 
@@ -111,22 +105,23 @@
 
 .portfolio-container-1 .portfolio-item .image {
     height: 100%;
-    max-width: 60%;
+    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .portfolio-container-1 .portfolio-item img {
-    object-fit: cover;
-    height: 100%;
+    /* border: 1px solid red; */
+    width: 100%;
     transition: 0.3s;
+    border-radius: 0.3rem;
 }
 
 
 .portfolio-container-1 .portfolio-item .image:hover img {
-    transform: scale(1.06);
+    transform: scale(1.03);
 }
 
 .portfolio-container-1 .portfolio-item .text {
@@ -144,6 +139,7 @@
     font-size: var(--h3-font-size-ss);
     line-height: 2rem;
     margin: 0;
+    margin-bottom: 10px;
 }
 
 
@@ -192,6 +188,11 @@
     .portfolio-container-1 .portfolio-row:nth-child(odd) {
         justify-content: center;
     }
+
+    .portfolio-container-1 .portfolio-item .text,
+    .portfolio-container-1 .portfolio-item .image {
+        width: 50%;
+    }
 }
 
 @media (max-width:660px) {
@@ -202,8 +203,11 @@
     }
 
     .portfolio-container-1 .portfolio-item .image {
-        max-width: 100%;
-        max-height: 40vh
+        width: 100%;
+    }
+
+    .portfolio-container-1 .portfolio-item .text {
+        width: 100%;
     }
 
     .portfolio-container-1 .portfolio-item .text h4 {
