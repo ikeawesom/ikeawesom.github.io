@@ -1,4 +1,4 @@
-<a href="https://ikeawesom.github.io">
+<a href="https://ikeawesom.github.io" target="_blank">
   <img src="resources/misc/icon.png" width="100" height="100" />
 </a>
 
@@ -11,11 +11,11 @@ Additionally, I have integrated payment gateways, including <b>Stripe</b>, to fa
 Being a <b>versatile developer</b>, I am driven to make <b>impactful contributions</b> in the field.
 
 ## Links
-<a href="https://linkedin.com/in/ike-lim">
+<a href="https://linkedin.com/in/ike-lim" target="_blank">
   <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" width="26" height="26"/>
 </a>
 
-<a href="https://instagram.com/ikeawesom">
+<a href="https://instagram.com/ikeawesom" target="_blank">
   <img src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png" width="26" height="26"/>
 </a>
 
