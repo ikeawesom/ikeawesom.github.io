@@ -28,4 +28,4 @@ Being a <b>versatile developer</b>, I am driven to make <b>impactful contributio
 
 ## Contact Me
 Interested in working on a project together?
-Get in touch me: ikebusinessoff@gmail.com
+Get in touch with me: ikebusinessoff@gmail.com
