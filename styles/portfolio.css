@@ -91,14 +91,34 @@
 }
 
 .portfolio-container-1 .portfolio-item .text a {
-    color: var(--purple-tint);
     font-size: smaller;
     transition: 0.3s;
     font-weight: 600;
 }
 
-.portfolio-container-1 .portfolio-item .text a:hover {
+.portfolio-container-1 .portfolio-item .text a.active {
+    color: var(--grey);
+    background-color: var(--purple-tint);
+    padding: 8px 20px;
+    line-height: 200%;
+}
+
+.portfolio-container-1 .portfolio-item .text a.inactive {
+    color: var(--red-tint);
+    cursor: not-allowed;
+}
+
+.portfolio-container-1 .portfolio-item .text a.active:hover {
     transform: translateX(10%);
+    color: var(--purple-tint);
+    background-color: var(--grey);
+}
+
+@media (max-width:440px) {
+    .portfolio-container-1 .portfolio-item .text a {
+        width: 100%;
+        text-align: center;
+    }
 }
 
 
