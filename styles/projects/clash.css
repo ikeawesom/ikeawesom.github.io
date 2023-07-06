@@ -204,6 +204,12 @@ hr {
     font-weight: bolder;
 }
 
+#splashscreen .heading span {
+    background: linear-gradient(90deg, #e56b43 10%, #bea90a 52%, #beee3b 100%);;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 .desc {
     background: linear-gradient(to bottom, #a89610,#958507);
@@ -364,6 +370,13 @@ hr {
 
 #profile-text {
     transition: opacity 300ms ease-in-out, transform 500ms ease-in-out;
+}
+
+#hiccups span {
+    background: linear-gradient(90deg, #bf680a 10%, #bea90a 52%, #7ebf0a 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 /* Check out */
 
