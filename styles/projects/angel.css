@@ -202,6 +202,12 @@ hr {
     font-weight: bolder;
 }
 
+#splashscreen .heading span {
+    background: linear-gradient(90deg, #74cbf7 10%, #8993ff 52%, #bf74f7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 
 
@@ -536,6 +542,13 @@ hr {
     font-size: var(--h3-font-size-ss);
     transition: 400ms ease-in-out 700ms;
     letter-spacing: 1px;
+}
+
+.results h4 span {
+    background: linear-gradient(90deg, #44a4d4 10%, #8993ff 52%, #8741bc 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @media (max-width:300px) {
