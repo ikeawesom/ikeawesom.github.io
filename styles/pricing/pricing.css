@@ -175,6 +175,7 @@
         background-repeat: no-repeat;
         width: 20rem;
         padding: 2rem;
+        align-self: stretch;
     }
 
     .option-box:hover {
