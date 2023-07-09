@@ -2,7 +2,7 @@
   <img src="resources/misc/icon.png" width="100" height="100" />
 </a>
 
-#Ike Lim | Junior Software Developer & Web Developer
+# Ike Lim | Junior Software Developer & Web Developer
 
 As a passionate freelance software and web developer with five years of experience, I possess proficiency in <b>Python, C++, Java, HTML, CSS and JavaScript</b>. I have successfully completed projects ranging from <b>personal websites</b> to <b>full-stack e-commerce platforms</b>. With expertise in frameworks such as <b>ExpressJS</b> and <b>Flask</b> coupled with designing tools like Figma and Photoshop, I am adept at developing visually appealing and responsive <b>full stack services</b>.
 
