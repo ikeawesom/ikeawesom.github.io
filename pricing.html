@@ -1,143 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="resources/misc/icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/wallpaper.css" />
+    <link rel="stylesheet" href="styles/navbar.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/pricing/pricing.css" />
 
-
-
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="resources/misc/icon.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/wallpaper.css">
-    <link rel="stylesheet" href="styles/navbar.css">
-    <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/pricing/pricing.css">
-
-
-
-
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
     <script type="text/javascript">
-        (function() {
-            // https://dashboard.emailjs.com/admin/account
-            emailjs.init('cxeJ5cUrNDLPiVPnp');
-
-
-
-
-        })();
+      (function () {
+        // https://dashboard.emailjs.com/admin/account
+        emailjs.init("cxeJ5cUrNDLPiVPnp");
+      })();
     </script>
 
-
-
-
     <title>Plans & Pricing | Ike Lim</title>
-</head>
+  </head>
 
-
-
-
-<body>
-
-
-
-
+  <body>
     <!-- Dot Animations -->
     <div class="dot-container">
-        <div class="bubbles flex">
-            <span style="--i:11"></span>
-            <span style="--i:12"></span>
-            <span style="--i:15"></span>
-            <span style="--i:23"></span>
-            <span style="--i:12"></span>
-            <span style="--i:11"></span>
-            <span style="--i:22"></span>
-            <span style="--i:11"></span>
-            <span style="--i:15"></span>
-            <span style="--i:14"></span>
-            <span style="--i:18"></span>
-            <span style="--i:12"></span>
-            <span style="--i:10"></span>
-            <span style="--i:8"></span>
-            <span style="--i:13"></span>
-            <span style="--i:15"></span>
-            <span style="--i:17"></span>
-            <span style="--i:12"></span>
-            <span style="--i:16"></span>
-            <span style="--i:12"></span>
-            <span style="--i:13"></span>
-            <span style="--i:25"></span>
-        </div>
+      <div class="bubbles flex">
+        <span style="--i: 11"></span>
+        <span style="--i: 12"></span>
+        <span style="--i: 15"></span>
+        <span style="--i: 23"></span>
+        <span style="--i: 12"></span>
+        <span style="--i: 11"></span>
+        <span style="--i: 22"></span>
+        <span style="--i: 11"></span>
+        <span style="--i: 15"></span>
+        <span style="--i: 14"></span>
+        <span style="--i: 18"></span>
+        <span style="--i: 12"></span>
+        <span style="--i: 10"></span>
+        <span style="--i: 8"></span>
+        <span style="--i: 13"></span>
+        <span style="--i: 15"></span>
+        <span style="--i: 17"></span>
+        <span style="--i: 12"></span>
+        <span style="--i: 16"></span>
+        <span style="--i: 12"></span>
+        <span style="--i: 13"></span>
+        <span style="--i: 25"></span>
+      </div>
     </div>
-
-
-
 
     <!-- Nav Bar -->
     <header class="primary-header">
-        <div class="header-container flex">
-            <div class="breadcrumb">
-                <a href="/">
-                    <h4>IKE LIM</h4>
-                </a>
-            </div>
-
-
-
-
-            <nav>
-                <i class="mobile-nav-toggle uil uil-apps" aria-controls="primary-navigation" aria-expanded="false"></i>
-
-
-
-
-                <ul data-visible="false" id="primary-navigation" class="primary-navigation flex">
-                    <li data-visible="false">
-                        <a href="/#">.home()</a>
-                    </li>
-                    <li data-visible="false">
-                        <a href="/#about">.about()</a>
-                    </li>
-                    <li data-visible="false">
-                        <a href="/#services">.services()</a>
-                    </li>
-                    <li data-visible="false">
-                        <a href="/#portfolio">.portfolio()</a>
-                    </li>
-                    <li class="active" data-visible="false">
-                        <a href="/pricing">.pricing()</a>
-                    </li>
-                    <li data-visible="false" class="flex">
-                        <a href="https://instagram.com/ikeawesom">
-                            <i class="uil uil-instagram"></i>
-                        </a>
-                        <a href="https://github.com/ikeawesom">
-                            <i class="uil uil-github"></i>
-                        </a>
-                        <a href="https://www.linkedin.com/in/ike-lim/">
-                            <i class="uil uil-linkedin"></i>
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-
-
-
-
+      <div class="header-container flex">
+        <div class="breadcrumb">
+          <a href="/">
+            <h4>IKE LIM</h4>
+          </a>
         </div>
+
+        <nav>
+          <i
+            class="mobile-nav-toggle uil uil-apps"
+            aria-controls="primary-navigation"
+            aria-expanded="false"
+          ></i>
+
+          <ul
+            data-visible="false"
+            id="primary-navigation"
+            class="primary-navigation flex"
+          >
+            <li data-visible="false">
+              <a href="/#">.home()</a>
+            </li>
+            <li data-visible="false">
+              <a href="/#about">.about()</a>
+            </li>
+            <li data-visible="false">
+              <a href="/#services">.services()</a>
+            </li>
+            <li data-visible="false">
+              <a href="/#portfolio">.portfolio()</a>
+            </li>
+            <li class="active" data-visible="false">
+              <a href="/pricing">.pricing()</a>
+            </li>
+            <li data-visible="false" class="flex">
+              <a href="https://instagram.com/ikeawesom">
+                <i class="uil uil-instagram"></i>
+              </a>
+              <a href="https://github.com/ikeawesom">
+                <i class="uil uil-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/ike-lim/">
+                <i class="uil uil-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
-
-
-
 
     <!-- Main Body -->
     <section id="page-wrapper">
-        <!-- <section id="dev">
+      <!-- <section id="dev">
             <div class="page">
                 <h1 class="title">This page is still under development. Please try again later.</h1>
                 <div class="flex">
@@ -147,697 +130,710 @@
             </div>
         </section> -->
 
+      <section id="options" class="page">
+        <div class="client-queue">
+          <h3>Clients in Queue: <span class="premium-gradient">2</span></h3>
 
+          <p>
+            Note that your project's duration may vary due to the state of the
+            queue.
+          </p>
+        </div>
+        <div class="heading">
+          <div class="main-text">
+            <h1 class="title">Got a project in mind?</h1>
+            <h4>Choose from the plans below to get started.</h4>
+          </div>
 
+          <p>
+            We offer <span class="theme">maintenance packages</span> that come
+            in a monthly subcription for both our
+            <span class="theme">web and software development plans</span>. This
+            is for us to ensure that you always have the
+            <span class="theme">best experience </span>possible when regularly
+            updating and sustaining your websites and applications.
+          </p>
+        </div>
 
-        <section id="options" class="page">
-            <div class="heading">
-                <div class="main-text">
-                    <h1 class="title">Got a project in mind?</h1>
-                    <h4>Choose from the plans below to get started.</h4>
+        <div class="options-container" id="web">
+          <div class="options-heading">
+            <h2>Web Development</h2>
+            <h4>Let us build your dream website today</h4>
+          </div>
+
+          <div class="options-box-container flex">
+            <div class="option-box">
+              <div class="text">
+                <h3 class="basic-gradient">Basic</h3>
+                <p>Best for personal and static websites.</p>
+              </div>
+              <div class="text">
+                <h2>S$250</h2>
+                <p>One-Time Payment</p>
+              </div>
+              <div class="links">
+                <a
+                  href="https://buy.stripe.com/test_5kAdUu75MfAt7jG4gg"
+                  target="_blank"
+                >
+                  <button>Get Started</button>
+                </a>
+
+                <a
+                  class="book"
+                  href="https://calendly.com/ike-lim/project_consult_web-basic"
+                  target="_blank"
+                >
+                  <p>Book a Call</p>
+                </a>
+              </div>
+              <hr class="default-top" />
+
+              <div class="text">
+                <ul>
+                  <li>Mobile Responsive</li>
+                  <li>Royalty Free Images</li>
+                  <li>1 Page</li>
+                  <li>3-5 Days Delivery</li>
+                  <li>Hosting Setup</li>
+                </ul>
+              </div>
+
+              <hr class="default-bottom" />
+
+              <div class="text">
+                <h4 class="maintain">Maintenance Package</h4>
+                <div class="flex">
+                  <h3>S$120</h3>
+                  <p>per month</p>
                 </div>
+              </div>
 
-                <p>
-                    We offer <span class="theme">maintenance packages</span> that come in a monthly subcription for both our <span class="theme">web and software development plans</span>.
-                    This is for us to ensure that you always have the <span class="theme">best experience </span>possible when regularly updating and sustaining your websites and applications.
-                </p>
+              <a
+                href="https://buy.stripe.com/test_eVag2CfCiewpeM8dQR"
+                target="_blank"
+              >
+                <button>Upgrade Plan</button>
+              </a>
+
+              <div class="text">
+                <h4>Additional:</h4>
+                <ul>
+                  <li>3 Monthly Revisions</li>
+                </ul>
+              </div>
             </div>
 
-            <div class="options-container" id="web">
-                <div class="options-heading">
-                    <h2>Web Development</h2>
-                    <h4>Let us build your dream website today</h4>
+            <div class="option-box highlight">
+              <div class="text">
+                <h3 class="premium-gradient">Premium</h3>
+                <p>Perfect for small business and entrepreneurs.</p>
+              </div>
+              <div class="text">
+                <h2>S$660</h2>
+                <p>One-Time Payment</p>
+              </div>
+
+              <div class="links">
+                <a
+                  href="https://buy.stripe.com/test_eVa17IahY73XdI44gi"
+                  target="_blank"
+                >
+                  <button>Get Started</button>
+                </a>
+
+                <a
+                  class="book"
+                  href="https://calendly.com/ike-lim/project_consult_web-premium"
+                  target="_blank"
+                >
+                  <p>Book a Call</p>
+                </a>
+              </div>
+
+              <hr class="highlight-top" />
+
+              <div class="text">
+                <ul>
+                  <li>Mobile Responsive</li>
+                  <li>Premium Images</li>
+                  <li>4 Pages</li>
+                  <li>7-10 Days Delivery</li>
+                  <li>Hosting Setup</li>
+                </ul>
+              </div>
+
+              <hr class="highlight-bottom" />
+
+              <div class="text">
+                <h4 class="maintain">Maintenance Package</h4>
+                <div class="flex">
+                  <h3>S$270</h3>
+                  <p>per month</p>
                 </div>
+              </div>
 
-                <div class="options-box-container flex">
-                    <div class="option-box">
-                        <div class="text">
-                            <h3 class="basic-gradient">Basic</h3>
-                            <p>Best for personal and static websites.</p>
-                        </div>
-                        <div class="text">
-                            <h2>S$250</h2>
-                            <p>One-Time Payment</p>
-                        </div>
-                        <div class="links">
-                            <a href="https://buy.stripe.com/test_5kAdUu75MfAt7jG4gg" target="_blank">
-                                <button>
-                                    Get Started
-                                </button>
-                            </a>
-    
-                            <a class="book" href="https://calendly.com/ike-lim/project_consult_web-basic" target="_blank">
-                                <p>Book a Call</p>
-                            </a>
-                        </div>
-                        <hr class="default-top">
+              <a
+                href="https://buy.stripe.com/test_4gw2bM4XE881dI4dQT"
+                target="_blank"
+              >
+                <button>Upgrade Plan</button>
+              </a>
 
-                        <div class="text">
-                            <ul>
-                                <li>Mobile Responsive</li>
-                                <li>Royalty Free Images</li>
-                                <li>1 Page</li>
-                                <li>3-5 Days Delivery</li>
-                                <li>Hosting Setup</li>
-                            </ul>
-                        </div>
-
-                        <hr class="default-bottom">
-                        
-                        <div class="text">
-                            
-                            <h4 class="maintain">Maintenance Package</h4>
-                            <div class="flex">
-                                <h3>S$120</h3>
-                                <p>per month</p>
-                            </div>
-                        </div>
-
-                        <a href="https://buy.stripe.com/test_eVag2CfCiewpeM8dQR" target="_blank">
-                            <button>
-                                Upgrade Plan
-                            </button>
-                        </a>
-
-                        <div class="text">
-                            <h4>Additional:</h4>
-                            <ul>
-                                <li>3 Monthly Revisions</li>
-                            </ul>
-                        </div>
-
-                        
-                       
-                    </div>
-
-                    <div class="option-box highlight">
-                        <div class="text">
-                            <h3 class="premium-gradient">Premium</h3>
-                            <p>Perfect for small business and entrepreneurs.</p>
-                        </div>
-                        <div class="text">
-                            <h2>S$660</h2>
-                            <p>One-Time Payment</p>
-                        </div>
-
-                        <div class="links">
-                            <a href="https://buy.stripe.com/test_eVa17IahY73XdI44gi" target="_blank">
-                                <button>
-                                    Get Started
-                                </button>
-                            </a>
-    
-                            <a class="book" href="https://calendly.com/ike-lim/project_consult_web-premium" target="_blank">
-                                <p>Book a Call</p>
-                            </a>
-                        </div>
-
-                        <hr class="highlight-top">
-
-                        <div class="text">
-                            <ul>
-                                <li>Mobile Responsive</li>
-                                <li>Premium Images</li>
-                                <li>4 Pages</li>
-                                <li>7-10 Days Delivery</li>
-                                <li>Hosting Setup</li>
-                            </ul>
-                        </div>
-
-                        <hr class="highlight-bottom">
-
-                        <div class="text">
-                            <h4 class="maintain">Maintenance Package</h4>
-                            <div class="flex">
-                                <h3>S$270</h3>
-                                <p>per month</p>
-                            </div>
-                        </div>
-
-                        <a href="https://buy.stripe.com/test_4gw2bM4XE881dI4dQT" target="_blank">
-                            <button>
-                                Upgrade Plan
-                            </button>
-                        </a>
-
-                        <div class="text">
-                            <h4>Additional:</h4>
-                            <ul>
-                                <li>7 Monthly Revisions</li>
-                                <li>Custom Domain</li>
-                            </ul>
-                        </div>
-
-                        
-
-                    </div>
-
-                    <div class="option-box">
-                        <div class="text">
-                            <h3 class="pro-gradient">Pro</h3>
-                            <p>Ideal for e-commerce platforms and corporations.</p>
-                        </div>
-                        <div class="text">
-                            <h2>S$999</h2>
-                            <p>One-Time Payment</p>
-                        </div>
-
-                        <div class="links">
-                            <a href="https://buy.stripe.com/test_dR66s20HoewpcE0148" target="_blank">
-                                <button>
-                                    Get Started
-                                </button>
-                            </a>
-    
-                            <a class="book" href="https://calendly.com/ike-lim/project_consult_web-dev-pro" target="_blank">
-                                <p>Book a Call</p>
-                            </a>
-                        </div>
-
-                        <hr class="default-top">
-
-                        <div class="text">
-                            <ul>
-                                <li>Mobile Responsive</li>
-                                <li>Premium Images</li>
-                                <li>8 Pages</li>
-                                <li>30 Days+ Delivery</li>
-                                <li>Hosting Setup</li>
-                                <li>Full Stack Development</li>
-                                <li>E-commerce Functionality</li>
-                            </ul>
-                        </div>
-
-                        <hr class="default-bottom">
-
-                        <div class="text">
-                            <h4 class="maintain">Maintenance Package</h4>
-                            <div class="flex">
-                                <h3>S$390</h3>
-                                <p>per month</p>
-                            </div>
-                        </div>
-
-                        <a href="https://buy.stripe.com/test_00g4jU75MdslbzW3ch" target="_blank">
-                            <button>
-                                Upgrade Plan
-                            </button>
-                        </a>
-
-                        <div class="text">
-                            <h4>Additional:</h4>
-                            <ul>
-                                <li>Unlimited Revisions</li>
-                                <li>Custom Domain</li>
-                            </ul>
-                        </div>
-
-                        
-
-                        
-                    </div>
-
-                </div>
-
-                
-
+              <div class="text">
+                <h4>Additional:</h4>
+                <ul>
+                  <li>7 Monthly Revisions</li>
+                  <li>Custom Domain</li>
+                </ul>
+              </div>
             </div>
 
-            <div class="options-container" id="software">
-                <div class="options-heading">
-                    <h2>Software Development</h2>
-                    <h4>Join us to create efficient and stunning software for you</h4>
+            <div class="option-box">
+              <div class="text">
+                <h3 class="pro-gradient">Pro</h3>
+                <p>Ideal for e-commerce platforms and corporations.</p>
+              </div>
+              <div class="text">
+                <h2>S$999</h2>
+                <p>One-Time Payment</p>
+              </div>
+
+              <div class="links">
+                <a
+                  href="https://buy.stripe.com/test_dR66s20HoewpcE0148"
+                  target="_blank"
+                >
+                  <button>Get Started</button>
+                </a>
+
+                <a
+                  class="book"
+                  href="https://calendly.com/ike-lim/project_consult_web-dev-pro"
+                  target="_blank"
+                >
+                  <p>Book a Call</p>
+                </a>
+              </div>
+
+              <hr class="default-top" />
+
+              <div class="text">
+                <ul>
+                  <li>Mobile Responsive</li>
+                  <li>Premium Images</li>
+                  <li>8 Pages</li>
+                  <li>30 Days+ Delivery</li>
+                  <li>Hosting Setup</li>
+                  <li>Full Stack Development</li>
+                  <li>E-commerce Functionality</li>
+                </ul>
+              </div>
+
+              <hr class="default-bottom" />
+
+              <div class="text">
+                <h4 class="maintain">Maintenance Package</h4>
+                <div class="flex">
+                  <h3>S$390</h3>
+                  <p>per month</p>
                 </div>
+              </div>
 
-                <div class="options-box-container flex">
-                    <div class="option-box">
-                        <div class="text">
-                            <h3 class="basic-gradient">Basic</h3>
-                            <p>Best for personal and entrepreneurial use.</p>
-                        </div>
-                        <div class="text">
-                            <h2>S$770</h2>
-                            <p>One-Time Payment</p>
-                        </div>
-                        <div class="links">
-                            <a href="https://buy.stripe.com/test_bIYeYy75M4VP6fC7sy" target="_blank">
-                                <button>
-                                    Get Started
-                                </button>
-                            </a>
-    
-                            <a class="book" href="https://calendly.com/ike-lim/project_consult_software-basic" target="_blank">
-                                <p>Book a Call</p>
-                            </a>
-                        </div>
-                        <hr class="default-top">
+              <a
+                href="https://buy.stripe.com/test_00g4jU75MdslbzW3ch"
+                target="_blank"
+              >
+                <button>Upgrade Plan</button>
+              </a>
 
-                        <div class="text">
-                            <ul>
-                                <li>1 Operating System</li>
-                                <li>App Icon</li>
-                                <li>4 Pages</li>
-                                <li>10-14 Days Delivery</li>
-                            </ul>
-                        </div>
+              <div class="text">
+                <h4>Additional:</h4>
+                <ul>
+                  <li>Unlimited Revisions</li>
+                  <li>Custom Domain</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
 
-                        <hr class="default-bottom">
-                        
-                        <div class="text">
-                            
-                            <h4 class="maintain">Maintenance Package</h4>
-                            <div class="flex">
-                                <h3>S$460</h3>
-                                <p>per month</p>
-                            </div>
-                        </div>
+        <div class="options-container" id="software">
+          <div class="options-heading">
+            <h2>Software Development</h2>
+            <h4>Join us to create efficient and stunning software for you</h4>
+          </div>
 
-                        <a href="https://buy.stripe.com/test_fZe4jUfCi0FzdI414b" target="_blank">
-                            <button>
-                                Upgrade Plan
-                            </button>
-                        </a>
+          <div class="options-box-container flex">
+            <div class="option-box">
+              <div class="text">
+                <h3 class="basic-gradient">Basic</h3>
+                <p>Best for personal and entrepreneurial use.</p>
+              </div>
+              <div class="text">
+                <h2>S$770</h2>
+                <p>One-Time Payment</p>
+              </div>
+              <div class="links">
+                <a
+                  href="https://buy.stripe.com/test_bIYeYy75M4VP6fC7sy"
+                  target="_blank"
+                >
+                  <button>Get Started</button>
+                </a>
 
-                        <div class="text">
-                            <h4>Additional:</h4>
-                            <ul>
-                                <li>3 Monthly Revisions</li>
-                                <li>Custom Domain (if applicable)</li>
-                            </ul>
-                        </div>
+                <a
+                  class="book"
+                  href="https://calendly.com/ike-lim/project_consult_software-basic"
+                  target="_blank"
+                >
+                  <p>Book a Call</p>
+                </a>
+              </div>
+              <hr class="default-top" />
 
-                        
-                       
-                    </div>
+              <div class="text">
+                <ul>
+                  <li>1 Operating System</li>
+                  <li>App Icon</li>
+                  <li>4 Pages</li>
+                  <li>10-14 Days Delivery</li>
+                </ul>
+              </div>
 
-                    <div class="option-box highlight">
-                        <div class="text">
-                            <h3 class="premium-gradient">Premium</h3>
-                            <p>Perfect for small businesses and software startups.</p>
-                        </div>
-                        <div class="text">
-                            <h2>S$1190</h2>
-                            <p>One-Time Payment</p>
-                        </div>
+              <hr class="default-bottom" />
 
-                        <div class="links">
-                            <a href="https://buy.stripe.com/test_cN2aIi9dU5ZTfQcbIQ" target="_blank">
-                                <button>
-                                    Get Started
-                                </button>
-                            </a>
-    
-                            <a class="book" href="https://calendly.com/ike-lim/project_consult_software-premium" target="_blank">
-                                <p>Book a Call</p>
-                            </a>
-                        </div>
-
-                        <hr class="highlight-top">
-
-                        <div class="text">
-                            <ul>
-                                <li>2 Operating Systems</li>
-                                <li>App Icon</li>
-                                <li>5 Pages</li>
-                                <li>14-20 Days Delivery</li>
-                                <li>APK/IPA Files</li>
-                                <li>Mobile Compatible</li>
-                                <li>Splash Screen</li>
-                            </ul>
-                        </div>
-
-                        <hr class="highlight-bottom">
-
-                        <div class="text">
-                            <h4 class="maintain">Maintenance Package</h4>
-                            <div class="flex">
-                                <h3>S$660</h3>
-                                <p>per month</p>
-                            </div>
-                        </div>
-
-                        <a href="https://buy.stripe.com/test_eVag2C9dUgEx6fC3cl" target="_blank">
-                            <button>
-                                Upgrade Plan
-                            </button>
-                        </a>
-
-                        <div class="text">
-                            <h4>Additional:</h4>
-                            <ul>
-                                <li>7 Monthly Revisions</li>
-                                <li>Custom Domain (if applicable)</li>
-                            </ul>
-                        </div>
-
-                        
-
-                    </div>
-
-                    <div class="option-box">
-                        <div class="text">
-                            <h3 class="pro-gradient">Pro</h3>
-                            <p>Suitable for SAAS platforms or tracking services.</p>
-                        </div>
-                        <div class="text">
-                            <h2>S$1490</h2>
-                            <p>One-Time Payment</p>
-                        </div>
-
-                        <div class="links">
-                            <a href="https://buy.stripe.com/test_4gw8Aa75Mdsl8nKfZ8" target="_blank">
-                                <button>
-                                    Get Started
-                                </button>
-                            </a>
-    
-                            <a class="book" href="https://calendly.com/ike-lim/project_consult_software-pro" target="_blank">
-                                <p>Book a Call</p>
-                            </a>
-                        </div>
-
-                        <hr class="default-top">
-
-                        <div class="text">
-                            <ul>
-                                <li>2 Operating Systems</li>
-                                <li>App Icon</li>
-                                <li>8 Pages</li>
-                                <li>30 Days+ Delivery</li>
-                                <li>APK/IPA Files</li>
-                                <li>Mobile Compatible</li>
-                                <li>Splash Screen</li>
-                                <li>App Submission (if applicable)</li>
-                            </ul>
-                        </div>
-
-                        <hr class="default-bottom">
-
-                        <div class="text">
-                            <h4 class="maintain">Maintenance Package</h4>
-                            <div class="flex">
-                                <h3>S$865</h3>
-                                <p>per month</p>
-                            </div>
-                        </div>
-
-                        <a href="https://buy.stripe.com/test_eVag2C9dU2NH5by4gr" target="_blank">
-                            <button>
-                                Upgrade Plan
-                            </button>
-                        </a>
-
-                        <div class="text">
-                            <h4>Additional:</h4>
-                            <ul>
-                                <li>Unlimited Revisions</li>
-                                <li>Custom Domain (if applicable)</li>
-                            </ul>
-                        </div>
-
-                        
-
-                        
-                    </div>
-
+              <div class="text">
+                <h4 class="maintain">Maintenance Package</h4>
+                <div class="flex">
+                  <h3>S$460</h3>
+                  <p>per month</p>
                 </div>
+              </div>
 
-                
+              <a
+                href="https://buy.stripe.com/test_fZe4jUfCi0FzdI414b"
+                target="_blank"
+              >
+                <button>Upgrade Plan</button>
+              </a>
 
+              <div class="text">
+                <h4>Additional:</h4>
+                <ul>
+                  <li>3 Monthly Revisions</li>
+                  <li>Custom Domain (if applicable)</li>
+                </ul>
+              </div>
             </div>
 
-            <div class="options-container" id="uiux">
-                <div class="options-heading">
-                    <h2>UI/UX Design</h2>
-                    <h4>Stunning and creative digital designs await you</h4>
+            <div class="option-box highlight">
+              <div class="text">
+                <h3 class="premium-gradient">Premium</h3>
+                <p>Perfect for small businesses and software startups.</p>
+              </div>
+              <div class="text">
+                <h2>S$1190</h2>
+                <p>One-Time Payment</p>
+              </div>
+
+              <div class="links">
+                <a
+                  href="https://buy.stripe.com/test_cN2aIi9dU5ZTfQcbIQ"
+                  target="_blank"
+                >
+                  <button>Get Started</button>
+                </a>
+
+                <a
+                  class="book"
+                  href="https://calendly.com/ike-lim/project_consult_software-premium"
+                  target="_blank"
+                >
+                  <p>Book a Call</p>
+                </a>
+              </div>
+
+              <hr class="highlight-top" />
+
+              <div class="text">
+                <ul>
+                  <li>2 Operating Systems</li>
+                  <li>App Icon</li>
+                  <li>5 Pages</li>
+                  <li>14-20 Days Delivery</li>
+                  <li>APK/IPA Files</li>
+                  <li>Mobile Compatible</li>
+                  <li>Splash Screen</li>
+                </ul>
+              </div>
+
+              <hr class="highlight-bottom" />
+
+              <div class="text">
+                <h4 class="maintain">Maintenance Package</h4>
+                <div class="flex">
+                  <h3>S$660</h3>
+                  <p>per month</p>
                 </div>
+              </div>
 
-                <div class="options-box-container flex">
-                    <div class="option-box">
-                        <div class="text">
-                            <h3 class="basic-gradient">Basic</h3>
-                            <p>Suitable for personal projects.</p>
-                        </div>
-                        <div class="text">
-                            <h2>S$110</h2>
-                            <p>One-Time Payment</p>
-                        </div>
-                        <div class="links">
-                            <a href="https://buy.stripe.com/test_6oE4jUbm2gExcE08wI" target="_blank">
-                                <button>
-                                    Get Started
-                                </button>
-                            </a>
-    
-                            <a class="book" href="https://calendly.com/ike-lim/project_consult_uiux-basic" target="_blank">
-                                <p>Book a Call</p>
-                            </a>
-                        </div>
-                        <hr class="default-top">
+              <a
+                href="https://buy.stripe.com/test_eVag2C9dUgEx6fC3cl"
+                target="_blank"
+              >
+                <button>Upgrade Plan</button>
+              </a>
 
-                        <div class="text">
-                            <ul>
-                                <li>Responsive Designs</li>
-                                <li>3 Pages</li>
-                                <li>5-7 Days Delivery</li>
-                                <li>2 Subsequent Revisions</li>
-                            </ul>
-                        </div>
-
-                        <hr class="default-bottom">
-                        
-                    </div>
-
-                    <div class="option-box highlight">
-                        <div class="text">
-                            <h3 class="premium-gradient">Premium</h3>
-                            <p>Excellent for small businesses and entrepreneurs.</p>
-                        </div>
-                        <div class="text">
-                            <h2>S$199</h2>
-                            <p>One-Time Payment</p>
-                        </div>
-
-                        <div class="links">
-                            <a href="https://buy.stripe.com/test_3csdUugGm73X47u6oB" target="_blank">
-                                <button>
-                                    Get Started
-                                </button>
-                            </a>
-    
-                            <a class="book" href="https://calendly.com/ike-lim/project_consult_uiux-premium" target="_blank">
-                                <p>Book a Call</p>
-                            </a>
-                        </div>
-
-                        <hr class="highlight-top">
-
-                        <div class="text">
-                            <ul>
-                                <li>Responsive Designs</li>
-                                <li>7 Pages</li>
-                                <li>10-12 Days Delivery</li>
-                                <li>5 Subsequent Revisions</li>
-                                <li>Commercial Use</li>
-                            </ul>
-                        </div>
-
-                        <hr class="highlight-bottom">
-                    </div>
-
-                    <div class="option-box">
-                        <div class="text">
-                            <h3 class="pro-gradient">Pro</h3>
-                            <p>Ideal for bigger corporations and enterprises.</p>
-                        </div>
-                        <div class="text">
-                            <h2>S$249</h2>
-                            <p>One-Time Payment</p>
-                        </div>
-
-                        <div class="links">
-                            <a href="https://buy.stripe.com/test_4gwg2C1Lsag91ZmbIW" target="_blank">
-                                <button>
-                                    Get Started
-                                </button>
-                            </a>
-    
-                            <a class="book" href="https://calendly.com/ike-lim/project_consult_uiux-pro" target="_blank">
-                                <p>Book a Call</p>
-                            </a>
-                        </div>
-
-                        <hr class="default-top">
-
-                        <div class="text">
-                            <ul>
-                                <li>Responsive Designs</li>
-                                <li>11 Pages</li>
-                                <li>21-30 Days Delivery</li>
-                                <li>10 Subsequent Revisions</li>
-                                <li>Commercial Use</li>
-                                <li>PSD/Figma Project Files</li>
-                            </ul>
-                        </div>
-
-                        <hr class="default-bottom">
-
-                    </div>
-
-                </div>
-
-                
-
+              <div class="text">
+                <h4>Additional:</h4>
+                <ul>
+                  <li>7 Monthly Revisions</li>
+                  <li>Custom Domain (if applicable)</li>
+                </ul>
+              </div>
             </div>
 
+            <div class="option-box">
+              <div class="text">
+                <h3 class="pro-gradient">Pro</h3>
+                <p>Suitable for SAAS platforms or tracking services.</p>
+              </div>
+              <div class="text">
+                <h2>S$1490</h2>
+                <p>One-Time Payment</p>
+              </div>
 
-           
-            
-        </section>
+              <div class="links">
+                <a
+                  href="https://buy.stripe.com/test_4gw8Aa75Mdsl8nKfZ8"
+                  target="_blank"
+                >
+                  <button>Get Started</button>
+                </a>
 
+                <a
+                  class="book"
+                  href="https://calendly.com/ike-lim/project_consult_software-pro"
+                  target="_blank"
+                >
+                  <p>Book a Call</p>
+                </a>
+              </div>
 
+              <hr class="default-top" />
 
+              <div class="text">
+                <ul>
+                  <li>2 Operating Systems</li>
+                  <li>App Icon</li>
+                  <li>8 Pages</li>
+                  <li>30 Days+ Delivery</li>
+                  <li>APK/IPA Files</li>
+                  <li>Mobile Compatible</li>
+                  <li>Splash Screen</li>
+                  <li>App Submission (if applicable)</li>
+                </ul>
+              </div>
 
-        <section id="contact" class="page">
-            <div class="heading">
-                <h1 class="title">Need a custom plan?</h1>
-                <h4>Let's get in touch.</h4>
-            </div>
-            <div class="contact-container flex">
-                <div class="contact-details">
-                    <span>
-                        <i class="fa-solid fa-envelope fa-bounce"></i>
-                        <h4>ikebusinessoff@gmail.com</h4>
-                    </span>
-                    <br>
-                    <span>
-                        <i class="fa-solid fa-phone fa-shake"></i>
-                        <h4>+65 8781 0918</h4>
-                    </span>
+              <hr class="default-bottom" />
+
+              <div class="text">
+                <h4 class="maintain">Maintenance Package</h4>
+                <div class="flex">
+                  <h3>S$865</h3>
+                  <p>per month</p>
                 </div>
-                <form>
-                    <div class="flex row">
-                        <div class="row-50">
-                            <p>First Name</p>
-                            <input type="text" id="first_name" placeholder="Enter your first name">
-                        </div>
-                        <div class="row-50">
-                            <p>Last Name</p>
-                            <input type="text" id="last_name" placeholder="Enter your last name">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <p>Email Address</p>
-                        <input type="email" id="email" placeholder="Enter your email">
-                    </div>
-                   
-                    <div class="row">
-                        <p>Interest</p>
-                        <select name="interest" id="interest">
-                            <option value="web">Web Development</option>
-                            <option value="software">Software Develpoment</option>
-                            <option value="design">UI/UX Design</option>
-                            <option value="others">Others</option>
-                        </select>
-                    </div>
-                   
-                    <div class="row">
-                        <p>Description</p>
-                        <textarea type="text" id="desc" placeholder="Tell me more..." cols="30" rows="10"></textarea>
-                    </div>    
-                   
-                    <button id="send">Contact Me<i class="uil uil-message"></i></button>
-                    <p class="status">Your message has been sent successfully. We will be in
-                        contact soon!
-                    </p>
-                </form>
+              </div>
 
+              <a
+                href="https://buy.stripe.com/test_eVag2C9dU2NH5by4gr"
+                target="_blank"
+              >
+                <button>Upgrade Plan</button>
+              </a>
 
-
-
-
-
-
-
+              <div class="text">
+                <h4>Additional:</h4>
+                <ul>
+                  <li>Unlimited Revisions</li>
+                  <li>Custom Domain (if applicable)</li>
+                </ul>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+
+        <div class="options-container" id="uiux">
+          <div class="options-heading">
+            <h2>UI/UX Design</h2>
+            <h4>Stunning and creative digital designs await you</h4>
+          </div>
+
+          <div class="options-box-container flex">
+            <div class="option-box">
+              <div class="text">
+                <h3 class="basic-gradient">Basic</h3>
+                <p>Suitable for personal projects.</p>
+              </div>
+              <div class="text">
+                <h2>S$110</h2>
+                <p>One-Time Payment</p>
+              </div>
+              <div class="links">
+                <a
+                  href="https://buy.stripe.com/test_6oE4jUbm2gExcE08wI"
+                  target="_blank"
+                >
+                  <button>Get Started</button>
+                </a>
+
+                <a
+                  class="book"
+                  href="https://calendly.com/ike-lim/project_consult_uiux-basic"
+                  target="_blank"
+                >
+                  <p>Book a Call</p>
+                </a>
+              </div>
+              <hr class="default-top" />
+
+              <div class="text">
+                <ul>
+                  <li>Responsive Designs</li>
+                  <li>3 Pages</li>
+                  <li>5-7 Days Delivery</li>
+                  <li>2 Subsequent Revisions</li>
+                </ul>
+              </div>
+
+              <hr class="default-bottom" />
+            </div>
+
+            <div class="option-box highlight">
+              <div class="text">
+                <h3 class="premium-gradient">Premium</h3>
+                <p>Excellent for small businesses and entrepreneurs.</p>
+              </div>
+              <div class="text">
+                <h2>S$199</h2>
+                <p>One-Time Payment</p>
+              </div>
+
+              <div class="links">
+                <a
+                  href="https://buy.stripe.com/test_3csdUugGm73X47u6oB"
+                  target="_blank"
+                >
+                  <button>Get Started</button>
+                </a>
+
+                <a
+                  class="book"
+                  href="https://calendly.com/ike-lim/project_consult_uiux-premium"
+                  target="_blank"
+                >
+                  <p>Book a Call</p>
+                </a>
+              </div>
+
+              <hr class="highlight-top" />
+
+              <div class="text">
+                <ul>
+                  <li>Responsive Designs</li>
+                  <li>7 Pages</li>
+                  <li>10-12 Days Delivery</li>
+                  <li>5 Subsequent Revisions</li>
+                  <li>Commercial Use</li>
+                </ul>
+              </div>
+
+              <hr class="highlight-bottom" />
+            </div>
+
+            <div class="option-box">
+              <div class="text">
+                <h3 class="pro-gradient">Pro</h3>
+                <p>Ideal for bigger corporations and enterprises.</p>
+              </div>
+              <div class="text">
+                <h2>S$249</h2>
+                <p>One-Time Payment</p>
+              </div>
+
+              <div class="links">
+                <a
+                  href="https://buy.stripe.com/test_4gwg2C1Lsag91ZmbIW"
+                  target="_blank"
+                >
+                  <button>Get Started</button>
+                </a>
+
+                <a
+                  class="book"
+                  href="https://calendly.com/ike-lim/project_consult_uiux-pro"
+                  target="_blank"
+                >
+                  <p>Book a Call</p>
+                </a>
+              </div>
+
+              <hr class="default-top" />
+
+              <div class="text">
+                <ul>
+                  <li>Responsive Designs</li>
+                  <li>11 Pages</li>
+                  <li>21-30 Days Delivery</li>
+                  <li>10 Subsequent Revisions</li>
+                  <li>Commercial Use</li>
+                  <li>PSD/Figma Project Files</li>
+                </ul>
+              </div>
+
+              <hr class="default-bottom" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="page">
+        <div class="heading">
+          <h1 class="title">Need a custom plan?</h1>
+          <h4>Let's get in touch.</h4>
+        </div>
+        <div class="contact-container flex">
+          <div class="contact-details">
+            <span>
+              <i class="fa-solid fa-envelope fa-bounce"></i>
+              <h4>ikebusinessoff@gmail.com</h4>
+            </span>
+            <br />
+            <span>
+              <i class="fa-solid fa-phone fa-shake"></i>
+              <h4>+65 8781 0918</h4>
+            </span>
+          </div>
+          <form>
+            <div class="flex row">
+              <div class="row-50">
+                <p>First Name</p>
+                <input
+                  type="text"
+                  id="first_name"
+                  placeholder="Enter your first name"
+                />
+              </div>
+              <div class="row-50">
+                <p>Last Name</p>
+                <input
+                  type="text"
+                  id="last_name"
+                  placeholder="Enter your last name"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <p>Email Address</p>
+              <input type="email" id="email" placeholder="Enter your email" />
+            </div>
+
+            <div class="row">
+              <p>Interest</p>
+              <select name="interest" id="interest">
+                <option value="web">Web Development</option>
+                <option value="software">Software Develpoment</option>
+                <option value="design">UI/UX Design</option>
+                <option value="others">Others</option>
+              </select>
+            </div>
+
+            <div class="row">
+              <p>Description</p>
+              <textarea
+                type="text"
+                id="desc"
+                placeholder="Tell me more..."
+                cols="30"
+                rows="10"
+              ></textarea>
+            </div>
+
+            <button id="send">Contact Me<i class="uil uil-message"></i></button>
+            <p class="status">
+              Your message has been sent successfully. We will be in contact
+              soon!
+            </p>
+          </form>
+        </div>
+      </section>
     </section>
-   
+
     <!-- Discount -->
     <section id="discount">
-        <div class="banner scroll-hidden bottom">
-            <h4>SOFT LAUNCH SALE: USE CODE 'IKE15OFF' FOR A 15% DISCOUNT OFF ALL PLANS</h4>
-        </div>
+      <div class="banner scroll-hidden bottom">
+        <h4>
+          SOFT LAUNCH SALE: USE CODE 'IKE15OFF' FOR A 15% DISCOUNT OFF ALL PLANS
+        </h4>
+      </div>
     </section>
-
-
-
 
     <!-- Footer -->
     <footer class="primary-footer flex">
-        <div class="footer-text flex">
-            <a href="#">
-                <h4>IKE LIM</h4>
-            </a>
-        </div>
-        <ul class="flex">
-            <li>
-                <a href="https://instagram.com/ikeawesom">
-                    <i class="uil uil-instagram"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/ikeawesom">
-                    <i class="uil uil-github"></i>
-                </a>
-            </li>
-            <li>
-                <a href="https://www.linkedin.com/in/ike-lim/">
-                    <i class="uil uil-linkedin"></i>
-                </a>
-            </li>
-        </ul>
-        <p>Copyright &copy; 2023 Ike Lim. All Rights Reserved.</p>
+      <div class="footer-text flex">
+        <a href="#">
+          <h4>IKE LIM</h4>
+        </a>
+      </div>
+      <ul class="flex">
+        <li>
+          <a href="https://instagram.com/ikeawesom">
+            <i class="uil uil-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/ikeawesom">
+            <i class="uil uil-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/ike-lim/">
+            <i class="uil uil-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+      <p>Copyright &copy; 2023 Ike Lim. All Rights Reserved.</p>
     </footer>
 
-
-
     <script type="module">
-  // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
 
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyDkm8RMGxIYzmxq94KhCLWyN95thVpJs4g",
-    authDomain: "ike-lim-website.firebaseapp.com",
-    projectId: "ike-lim-website",
-    storageBucket: "ike-lim-website.appspot.com",
-    messagingSenderId: "817715312989",
-    appId: "1:817715312989:web:8b4ba4e58b77b570c2d0b4",
-    measurementId: "G-1X9R8CHVVD"
-  };
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyDkm8RMGxIYzmxq94KhCLWyN95thVpJs4g",
+        authDomain: "ike-lim-website.firebaseapp.com",
+        projectId: "ike-lim-website",
+        storageBucket: "ike-lim-website.appspot.com",
+        messagingSenderId: "817715312989",
+        appId: "1:817715312989:web:8b4ba4e58b77b570c2d0b4",
+        measurementId: "G-1X9R8CHVVD",
+      };
 
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
-</script>
-
-
-
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
 
     <script src="scripts/contact.js"></script>
     <script src="scripts/animations.js"></script>
     <script src="scripts/navbar.js"></script>
     <script src="scripts/journey.js"></script>
     <script src="scripts/modal.js"></script>
-</body>
-
-
-
-
+  </body>
 </html>
-
