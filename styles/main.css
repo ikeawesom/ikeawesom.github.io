@@ -197,6 +197,26 @@ input {
   display: grid;
 }
 
+#discount {
+  z-index: 20;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+#discount .banner {
+  width: 80%;
+  background-color: var(--red-tint);
+  transition: all 500ms ease-in-out 500ms;
+  backdrop-filter: blur(1px);
+  text-align: center;
+  border-radius: 0.5rem 0.5rem 0 0;
+  padding: 0.5rem;
+}
+
 /* DEV PAGE */
 #dev {
   padding: 0 min(5rem, 8vw);

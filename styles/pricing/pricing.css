@@ -10,26 +10,6 @@
   --light-button: linear-gradient(to bottom right, #bc50ef, #7122968e);
 }
 
-#discount {
-  z-index: 20;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  display: grid;
-  place-items: center;
-}
-
-#discount .banner {
-  width: 80%;
-  background-color: var(--red-tint);
-  transition: all 500ms ease-in-out 500ms;
-  backdrop-filter: blur(1px);
-  text-align: center;
-  border-radius: 0.5rem 0.5rem 0 0;
-  padding: 0.5rem;
-}
-
 /* MAIN */
 #page-wrapper {
   margin: 0 10vw;
